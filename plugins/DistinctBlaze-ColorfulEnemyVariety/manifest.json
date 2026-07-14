@@ -1,0 +1,8 @@
+{
+	"name": "ColorfulEnemyVariety",
+	"author": "DistinctBlaze",
+	"version_number": "2.4.1",
+	"website_url": "https://imgur.com/gallery/colorfulenemyvariety-skins-list-IyfYB5d",
+	"description": "[v73] Adds different colored reskins for most vanilla creatures. Highly configurable!",
+	"dependencies": ["AntlerShed-EnemySkinKit-1.4.1"]
+}

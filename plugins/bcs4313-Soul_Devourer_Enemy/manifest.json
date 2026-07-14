@@ -1,0 +1,13 @@
+{
+	"name": "Soul_Devourer_Enemy",
+	"version_number": "1.3.5",
+	"website_url": "https://github.com/bcs4313/Soul-Devourer-Enemy",
+	"description": "Adds a disgusting skeletal giant to tear you limb from limb. Spawns outside at night. Configurable.",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100",
+		"Evaisa-HookGenPatcher-0.0.5",
+		"Evaisa-LethalLib-1.2.0",
+		"AinaVT-LethalConfig-1.4.6",
+		"SolidStone-SolidLib-1.3.1"
+	]
+}

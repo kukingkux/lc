@@ -1,0 +1,10 @@
+{
+    "name": "Black_Fog_Weather",
+    "version_number": "1.1.1",
+    "website_url": "",
+    "description": "Adds a weather type based on an event of the same name from Voices of the Void.",
+    "dependencies": [
+        "mrov-WeatherRegistry-0.7.0",
+		"pacoito-itolib-0.3.2"
+    ]
+}

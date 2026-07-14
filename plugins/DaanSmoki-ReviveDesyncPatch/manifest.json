@@ -1,0 +1,9 @@
+{
+    "name": "ReviveDesyncPatch",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/daniel-noordzij/ReviveDesyncPatch",
+    "description": "Adds a timeout to a check if all players have been revived, to prevent a potential softlock.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

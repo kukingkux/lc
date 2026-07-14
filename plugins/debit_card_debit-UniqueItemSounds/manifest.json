@@ -1,0 +1,10 @@
+{
+    "name": "UniqueItemSounds",
+    "version_number": "0.2.3",
+    "website_url": "https://discord.com/channels/1168655651455639582/1431555180620681306",
+    "description": "[WIP] Aims to give each item their own unique grab & drop audio. Currently has sounds for 19 items (+10 for some modded scrap) and a couple pieces of furniture.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "loaforc-loaforcsSoundAPI-2.0.11"
+    ]
+}

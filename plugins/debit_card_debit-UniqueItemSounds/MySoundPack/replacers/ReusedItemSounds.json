@@ -1,0 +1,284 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "*:TallLamp:DropMetalObject2",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/FancyLamp_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:Wesley",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:SeichiSoda:DropMetalObject1",
+                "*:HarvestSoda:DropMetalObject1",
+                "*:GenericSoda:DropMetalObject1",
+                "*:AltSoda:DropMetalObject1",
+                "*:XuSoda:DropMetalObject1",
+                "*:OditySoda:DropMetalObject1",
+                "*:NikkiSoda:DropMetalObject1",
+                "*:MorvSoda:DropMetalObject1",
+                "*:WebleySoda:DropMetalObject1"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RedSoda_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:LC_Office",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:SeichiSoda:ShovelPickUp",
+                "*:HarvestSoda:ShovelPickUp",
+                "*:GenericSoda:ShovelPickUp",
+                "*:AltSoda:ShovelPickUp",
+                "*:XuSoda:ShovelPickUp",
+                "*:OditySoda:ShovelPickUp",
+                "*:NikkiSoda:ShovelPickUp",
+                "*:MorvSoda:ShovelPickUp",
+                "*:WebleySoda:ShovelPickUp"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RedSoda_Grab1.ogg",
+                    "weight": 80
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RedSoda_Grab2.ogg",
+                    "weight": 20
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:LC_Office",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:BronzeCookieMoldPan:DropThinMetal",
+                "*:SilverCookieMoldPan:DropThinMetal",
+                "*:GoldCookieMoldPan:DropThinMetal",
+                "*:BronzeCookieMold:DropThinMetal",
+                "*:SilverCookieMold:DropThinMetal",
+                "*:GoldCookieMold:DropThinMetal",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:MetalItemVariants",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:BronzeCookieMoldPan:ShovelPickUp",
+                "*:SilverCookieMoldPan:ShovelPickUp",
+                "*:GoldCookieMoldPan:ShovelPickUp",
+                "*:BronzeCookieMold:ShovelPickUp",
+                "*:SilverCookieMold:ShovelPickUp",
+                "*:GoldCookieMold:ShovelPickUp",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:MetalItemVariants",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:BronzeCookieMold:CashRegisterJiggle1",
+                "*:BronzeCookieMold:CashRegisterJiggle2",
+                "*:BronzeCookieMold:CashRegisterJiggle3",
+                "*:BronzeCookieMold:CashRegisterJiggle4",
+                "*:BronzeCookieMold:CashRegisterJiggle5",
+                "*:BronzeCookieMold:CashRegisterJiggle6",
+                "*:SilverCookieMold:CashRegisterJiggle1",
+                "*:SilverCookieMold:CashRegisterJiggle2",
+                "*:SilverCookieMold:CashRegisterJiggle3",
+                "*:SilverCookieMold:CashRegisterJiggle4",
+                "*:SilverCookieMold:CashRegisterJiggle5",
+                "*:SilverCookieMold:CashRegisterJiggle6",
+                "*:GoldCookieMold:CashRegisterJiggle1",
+                "*:GoldCookieMold:CashRegisterJiggle2",
+                "*:GoldCookieMold:CashRegisterJiggle3",
+                "*:GoldCookieMold:CashRegisterJiggle4",
+                "*:GoldCookieMold:CashRegisterJiggle5",
+                "*:GoldCookieMold:CashRegisterJiggle6",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle3.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle4.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle5.ogg",
+                    "weight": 1
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:MetalItemVariants",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:BronzeEggBeater:DropPlastic1",
+                "*:SilverEggBeater:DropPlastic1",
+                "*:GoldEggBeater:DropPlastic1",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/EggBeater_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:MetalItemVariants",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:BronzeEggBeater:ShovelPickUp",
+                "*:SilverEggBeater:ShovelPickUp",
+                "*:GoldEggBeater:ShovelPickUp",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/EggBeater_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:MetalItemVariants",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:GoldenEggbeaterPrefab:DropMetalObject1"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/EggBeater_Drop.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "*:GoldenEggbeaterPrefab:ShovelPickUp"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/EggBeater_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:LCGoldScrapMod",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:EarlGoldPrefab:DropThinMetal"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/TeaKettle_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:LCGoldScrapMod",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:EarlGoldPrefab:ShovelPickUp"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/TeaKettle_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:LCGoldScrapMod",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:CookieGoldPanPrefab:DropThinMetal"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:LCGoldScrapMod",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:CookieGoldPanPrefab:ShovelPickUp"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:LCGoldScrapMod",
+                "value": true
+            }
+        }
+    ]
+}

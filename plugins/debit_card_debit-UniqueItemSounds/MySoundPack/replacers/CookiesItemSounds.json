@@ -1,0 +1,34 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "*:CordBundle:DropCardboardBox"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/SigurdsScrap/BundleOfCords_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "SigurdsScrap:BundleOfCords",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:CordBundle:PickUpPlasticBin"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/SigurdsScrap/BundleOfCords_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "SigurdsScrap:BundleOfCords",
+                "value": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Castellum_Carnis",
+    "version_number": "1.1.3",
+    "website_url": "",
+    "description": "A living flesh, meat, and bone interior made for vanilla-esque dungeon gameplay",
+    "dependencies": [
+        "IAmBatby-LethalLevelLoader-1.3.13",
+	"JacobG5-JLL-1.7.7"
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "*:Snare Flea Sample:GrabFlashlight",
+                "*:Bunker Spider Sample:GrabFlashlight",
+                "*:Hoarding Bug Sample:GrabFlashlight",
+                "*:Bracken Sample:GrabFlashlight",
+                "*:Eyeless Dog Sample:GrabFlashlight",
+                "*:Baboon Hawk Sample:GrabFlashlight",
+                "*:Thumper Sample:GrabFlashlight",
+                "*:Forest Keeper Sample:GrabFlashlight",
+                "*:Manticoil Sample:GrabFlashlight",
+                "*:Tulip Snake Sample:GrabFlashlight",
+                "*:Kidnapper Fox Sample:GrabFlashlight",
+                "*:Spore Lizard Sample:GrabFlashlight",
+                "*:Maneater Sample:GrabFlashlight",
+                "*:Giant Sapsucker Sample:GrabFlashlight"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/LGUItems/EnemySample_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "LategameUpgrades:EnemySamples",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Snare Flea Sample:Aluminum2",
+                "*:Bunker Spider Sample:Aluminum2",
+                "*:Hoarding Bug Sample:Aluminum2",
+                "*:Bracken Sample:Aluminum2",
+                "*:Eyeless Dog Sample:Aluminum2",
+                "*:Baboon Hawk Sample:Aluminum2",
+                "*:Thumper Sample:Aluminum2",
+                "*:Forest Keeper Sample:Aluminum2",
+                "*:Manticoil Sample:Aluminum2",
+                "*:Tulip Snake Sample:Aluminum2",
+                "*:Kidnapper Fox Sample:Aluminum2",
+                "*:Spore Lizard Sample:Aluminum2",
+                "*:Maneater Sample:Aluminum2",
+                "*:Giant Sapsucker Sample:Aluminum2"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/LGUItems/EnemySample_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "LategameUpgrades:EnemySamples",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Snare Flea Sample:GrabClipboard",
+                "*:Bunker Spider Sample:GrabClipboard",
+                "*:Hoarding Bug Sample:GrabClipboard",
+                "*:Bracken Sample:GrabClipboard",
+                "*:Eyeless Dog Sample:GrabClipboard",
+                "*:Baboon Hawk Sample:GrabClipboard",
+                "*:Thumper Sample:GrabClipboard",
+                "*:Forest Keeper Sample:GrabClipboard",
+                "*:Manticoil Sample:GrabClipboard",
+                "*:Tulip Snake Sample:GrabClipboard",
+                "*:Kidnapper Fox Sample:GrabClipboard",
+                "*:Spore Lizard Sample:GrabClipboard",
+                "*:Maneater Sample:GrabClipboard",
+                "*:Giant Sapsucker Sample:GrabClipboard"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/LGUItems/EnemySample_Pocket.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "LategameUpgrades:EnemySamples",
+                "value": true
+            }
+        }
+    ]
+}

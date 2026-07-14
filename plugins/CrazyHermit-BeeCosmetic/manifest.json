@@ -1,0 +1,9 @@
+{
+    "name": "BeeCosmetic",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "A Bee cosmetic for MoreCompany mod",
+    "dependencies": [
+    "notnotnotswipez-MoreCompany-1.12.0"
+    ]
+}

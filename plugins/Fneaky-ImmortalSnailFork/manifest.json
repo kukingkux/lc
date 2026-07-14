@@ -1,0 +1,12 @@
+{
+    "name": "ImmortalSnailFork",
+    "version_number": "0.1.1",
+	"website_url": "https://github.com/swAAn01/ImmortalSnail",
+    "description": "Adds the legendary Immortal Snail as an enemy for v81!",
+    "dependencies": [
+        "Evaisa-LethalLib-1.1.1",
+		"MonoDetour-MonoDetour-0.7.13",
+		"MonoDetour-MonoDetour_BepInEx_5-0.7.13",
+		"Evaisa-HookGenPatcher-0.0.5"
+    ]
+}

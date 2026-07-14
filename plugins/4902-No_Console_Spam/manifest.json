@@ -1,0 +1,10 @@
+{
+	"name": "No_Console_Spam",
+	"version_number": "1.8.1",
+	"website_url": "https://github.com/4902k/r",
+	"description": "Adds a cooldown to messages that are logged every frame",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100",
+		"Evaisa-HookGenPatcher-0.0.5"
+	]
+}

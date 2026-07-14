@@ -1,0 +1,9 @@
+{
+    "name": "Reptilian_Suit",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/x753/Lethal-Company-More-Suits",
+    "description": "Adds a glow in the dark crocodile themed suit.",
+    "dependencies": [
+        "x753-More_Suits-1.3.0"
+    ]
+}

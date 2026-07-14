@@ -1,0 +1,587 @@
+{
+    "replacements": [
+        {
+            "matches": "*:WeedKillerItem:DropPlastic2",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Equipment/WeedKiller_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Equipment:WeedKiller",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:WeedKillerItem:HoldTZP",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Equipment/WeedKiller_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Equipment:WeedKiller",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:WeedKillerItem:PickUpPlasticBin",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Equipment/WeedKiller_Pocket.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Equipment:WeedKiller",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:PillBottle:DropMetalObject1",
+                "*:PillBottle:DropPlastic1",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/PillBottle_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:PillBottle",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:PillBottle:ShovelPickUp",
+                "*:PillBottle:PickUpPlasticBin",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/PillBottle_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:PillBottle",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:Mug:DropPlastic1",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/Mug_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:Mug",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:Mug:PickUpPlasticBin",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/Mug_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:Mug",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:ToyCube:DropPlastic2",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/ToyCube_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ToyCube",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:ToyCube:ShovelPickUp",
+                "*:ToyCube:PickUpPlasticBin",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/ToyCube_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ToyCube",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:Toothpaste:DropPlastic2",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/Toothpaste_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:Toothpaste",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Toothpaste:ShovelPickUp",
+                "*:Toothpaste:PickUpPlasticBin",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/Toothpaste_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:Toothpaste",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:RedSodaCan:DropMetalObject1",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RedSoda_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:RedSoda",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:RedSodaCan:ShovelPickUp",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RedSoda_Grab1.ogg",
+                    "weight": 80
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RedSoda_Grab2.ogg",
+                    "weight": 20
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:RedSoda",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:Candy:DropPlastic2",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/Candy_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:Candy",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Candy:ShovelPickUp",
+                "*:Candy:PickUpPlasticBin",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/Candy_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:Candy",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:FancyLamp:DropMetalObject2",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/FancyLamp_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:FancyLamp",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:FancyLamp:FlashlightClick",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/FancyLamp_Toggle.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:FancyLamp",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:EggBeater:DropPlastic1",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/EggBeater_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:EggBeater",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:EggBeater:ShovelPickUp",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/EggBeater_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:EggBeater",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:RubberDucky:DropRubberDuck",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RubberDucky_Drop1.ogg",
+                    "weight": 40
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RubberDucky_Drop2.ogg",
+                    "weight": 10
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:RubberDucky",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:DuckQuack",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RubberDucky_Grab1.ogg",
+                    "weight": 40
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RubberDucky_Grab2.ogg",
+                    "weight": 10
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:RubberDucky",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:ZeddogPlushie:DropMetalObject3",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/ZedDog_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ZedDog",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:ScrapZedDogPickup",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/ZedDog_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ZedDog",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:TeaKettle:DropThinMetal",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/TeaKettle_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:TeaKettle",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:TeaKettle:ShovelPickUp",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/TeaKettle_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:TeaKettle",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": "*:CookieMoldPan:DropThinMetal",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:CookiePan",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:CookieMoldPan:ShovelPickUp",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:CookiePan",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:CookieMoldPan:CashRegisterJiggle1",
+                "*:CookieMoldPan:CashRegisterJiggle2",
+                "*:CookieMoldPan:CashRegisterJiggle3",
+                "*:CookieMoldPan:CashRegisterJiggle4",
+                "*:CookieMoldPan:CashRegisterJiggle5",
+                "*:CookieMoldPan:CashRegisterJiggle6",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle3.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle4.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/CookiePan_Rustle5.ogg",
+                    "weight": 1
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:CookiePan",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:PerfumeBottle:DropPlastic1",
+                "*:PerfumeBottle:DropGlassJar"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/PerfumeBottle_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:PerfumeBottle",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:PerfumeBottle:ShovelPickUp",
+                "*:PerfumeBottle:GrabBottle",
+                "*:PerfumeBottle:PickUpGlassJar"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/PerfumeBottle_Grab1.ogg",
+                    "weight":40
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/PerfumeBottle_Grab2.ogg",
+                    "weight":10
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:PerfumeBottle",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:StickyNote"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Equipment/StickyNote_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Equipment:StickyNote",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:Clownhorn:DropPlastic1"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/ClownHorn_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ClownHorn",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Clownhorn:GrabFlashlight"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/ClownHorn_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ClownHorn",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:KiwiBabyItem:DropPlastic1"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/Egg_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:Egg",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:FancyGlass:DropMetalObject1",
+                "*:FancyGlass:DropGlass1"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/GoldenCup_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:GoldenCup",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:GarbageLid:DropMetalObject4"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/GarbageLid_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:GarbageLid",
+                "value": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Chillax_Suits",
+    "version_number": "1.12.1",
+    "website_url": "",
+    "description": "Add more suit variations with the More_Suits mod. This was planned to be used with my Chillax friend group members. Feel free to use it or modify it as you like!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+	"x753-More_Suits-1.3.3"
+    ]
+}

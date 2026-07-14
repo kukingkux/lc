@@ -1,0 +1,10 @@
+{
+    "name": "RuntimeIcons_BetterRotations",
+    "version_number": "1.2.11",
+    "website_url": "https://discord.com/channels/1168655651455639582/1423086110317346877",
+    "description": "An addon for RuntimeIcons to make items look better in your inventory. Supports items from Wesley's Moons as well as many other mods!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "LethalCompanyModding-RuntimeIcons-0.3.3"
+    ]
+}

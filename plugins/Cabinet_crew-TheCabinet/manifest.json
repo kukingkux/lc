@@ -1,0 +1,12 @@
+{
+  "namespace": "VectorV",
+  "name": "TheCabinet",
+  "description": "A monster that is more than it seems",
+  "version_number": "1.12.1",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Evaisa-LethalLib-1.1.0"
+  ],
+  "website_url": "https://discord.gg/XeyYqRdRGC",
+  "FullName": "VectorV-TheCabinet"
+}

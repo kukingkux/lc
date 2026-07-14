@@ -1,0 +1,211 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "*:Wallet:DropCardboardBox"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/Wallet_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:Wallet",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Wallet:GrabCardboardBox"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/Wallet_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:Wallet",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:LightBulb:DropBottleSingle"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/LightBulb_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:LightBulb",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:LightBulb:EmptyPickup"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/LightBulb_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:LightBulb",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:Bucket:DropThinMetal"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/Bucket_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:Bucket",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Bucket:ShovelPickUp"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/Bucket_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:Bucket",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:Stapler:DropPlastic2"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/Stapler_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:Stapler",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Stapler:PickUpPlasticBin"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/Stapler_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:Stapler",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:PizzaBox:DropCardboardBox"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/PizzaBox_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:PizzaBox",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:Spatula:DropPlastic1"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/Spatula_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:Spatula",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Spatula:ShovelPickUp"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/Spatula_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:Spatula",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "*:BaseballGlove:DropCardboardBox"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/BaseballGlove_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:BaseballGlove",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:BaseballGlove:GrabCardboardBox"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/TerrasScrap/BaseballGlove_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "TerrasScrap:BaseballGlove",
+                "value": true
+            }
+        }
+    ]
+}

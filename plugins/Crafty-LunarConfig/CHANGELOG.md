@@ -1,0 +1,281 @@
+## Version 0.4.3
+
+Fixes?
+- Added extra logging and protections for trying to set map object curves
+
+## Version 0.4.2
+
+Features
+- Added 'Battery Value' and 'Requires Battery' entries to item configs
+
+Fixes
+- Fixed me not creating hazards the right way
+- Fixed a discrepancy with how tooltips are read
+
+## Version 0.4.1
+
+Features
+- Readded 'Is Scrap?'
+
+Fixes
+- Fixed the catalogue index bug
+- Fixed changelog
+
+# Version 0.4.0 - The B.I.G. Update
+## Bug fixes, Item features, and General additions
+
+Features
+- Added many new features to items, several are disabled by default as they're advanced!
+- Added the ability to configure the LLL tags of a moon, this option only appears if you have LLL installed!
+- Added the 'Disable Increased Chance Interior' field to enemy configs (for enemies like maneaters)
+- Removed 'Is Scrap?'
+
+Fixes
+- Fixed Lunar grabbing empty map object weights (and any other issues with grabbing things that weren't initialized)
+- Fixed an annoying spam message if Lunar tried to parse an empty tag on an entry
+- Fixed enabling configure content on a moon removing it's tags from LunarTagInjection
+- Fixed 'Catalogue Index' ignoring configure content
+- Fixed inside objects freezing the game if you tried to spawn them outside
+
+## Version 0.3.14
+
+Features
+- Added Catalogue Index option in moon entries for allowing a custom order of moons in the terminal.
+
+## Version 0.3.13
+
+Features
+- Added the Diversity Power Level field to enemy configs
+
+## Version 0.3.12
+
+Fixes
+- Actually added the aforementioned map object fields.
+
+## Version 0.3.11
+
+Features
+- Compatible with v80(1)!
+- Added 5 new fields to moon configs; Offset Time, Can Spawn Shrouds?, Outside Probability Range, Max Outside Diversity, Max Interior Diversity
+- Added 2 new fields to map object configs; (Inside) Allow In Mineshaft?, (Outside) Minimum AI Nodes Before Spawning
+
+Fixes
+- Fixed a tiny issue related to configuring map objects.
+- Fixed an issue where my invisible character fix also removed E.
+
+## Version 0.3.10
+
+Features
+- Added a blacklist for using a moon's 'Is Hidden & Is Locked' settings, in case you wish to configure a moon, but don't want Lunar messing with it's custom unlock.
+
+Fixes
+- Fixed an issue with curves breaking when trying to parse invisible characters.
+
+## Version 0.3.9
+
+Fixes
+- Fixed an issue Lunar had with handling negative weights.
+
+## Version 0.3.8
+
+NOTICE: Your map object curve settings will be reset on this update, there's not much I can do about it.
+
+Fixes
+- Fixed duplicate map objects breaking everything (Like E Gypt's).
+
+## Version 0.3.7
+
+Fixes
+- Fixed an error around setting multipliers.
+
+## Version 0.3.6
+
+Fixes
+- Removed some logging.
+
+## Version 0.3.5
+
+Fixes
+- Compatible with the newest DawnLib version.
+- Fixed an issue with Has Time?
+- Maybe unintentionally fixed other things who knows.
+
+## Version 0.3.4
+
+Fixes
+- Fixed an obscure mistake where disabling configuring tags for items would break configuring enemies.
+
+## Version 0.3.3
+
+Fixes
+- Added compatability with new Dawn version.
+
+## Version 0.3.2
+
+Fixes?
+- Added failsafes if an item's weight cannot be gotten so it won't error the entire moon.
+
+## Version 0.3.1
+
+Fixes
+- Fixed multipliers not working with injection right.
+- Removed using the '=' operator in weight strings.
+- Automatically adds a namespace to tags that do not have one.
+
+# Version 0.3.0 - INJECTION UPDATE
+
+Features
+- Basic injection is added based on dungeons, tags, and weather.
+- Includes injecting scrap, enemies, and dungeons!
+- Added a setting for changing the unused total scrap values.
+
+Fixes
+- Moved to DawnLib's curve system.
+
+## Version 0.2.8
+
+Features
+- Added tags on everything! (mostly useless for now)
+- Added configuration for unlockables. (furniture, suits, ship upgrades)
+
+Fixes
+- Prevented meddling with DawnLib tags.
+
+## Version 0.2.7
+
+Fixes
+- Is Hidden? and Is Locked? work now!
+
+## Version 0.2.6
+
+Fixes
+- Removed some logging I forgot about.
+- Changed Dawn dependency version to one that has working route price.
+
+## Version 0.2.5
+
+Features
+- Added settings that allow scrap values and weight to be based off of the real values/weight, not Zeekers math.
+
+## Version 0.2.4
+
+Fixes
+- Depended on the correct version of DawnLib.
+
+## Version 0.2.3
+
+Fixes
+- Fixed me breaking something relating to map objects (maybe), full fix will come alongside a DawnLib update.
+
+## Version 0.2.2
+
+Fixes
+- Added a warning when a tag is improperly formatted (as opposed to just failing to register the moon).
+
+## Version 0.2.1
+
+Fixes
+- Fixed almost anything breaking if you had invalid names in the scrap, enemy, or dungeon fields on moon settings.
+- Fixed some issues around item configs not working if you didn't enable node text editing.
+
+# Version 0.2.0 - DAWNLIB PORT
+
+Features
+- LunarConfig no longer requires any of it's former dependencies, only DawnLib (and BepinEx I guess).
+- Cleaner code (keyword '-er').
+- DawnLib content, and non-library affiliated content can now be configured with LunarConfig.
+- Aliases used to refer to anything in LunarConfig can now be changed.
+- Enemies can now have their bestiary text and keywords configured.
+- Items can now be configured to be sold in the shop, and have the text of shop-related nodes configured.
+- Some more map object settings.
+- Map object curves are now in LunarConfigMoons.
+- Map objects can now spawn where they shouldn't, however map objects that do not have a NetworkObject (usually the vanilla outside objects) are not able to spawn inside.
+- Tags are now based on DawnLib, not LLL (might cause some things not to work while libraries port).
+- As config files changed, a way was added to port old configurations, SEE README BEFORE ATTEMPTING (this also removed porting from CentralConfig).
+- Added some notices to config fields that require other mods to work.
+
+Fixes
+- Mostly just issues caused by Lunar not being DawnLib-related.
+
+## Version 0.1.13
+
+Fixes
+- Fixed an issue that breaks curve configurations on cultures that use commas as decimal points.
+
+## Version 0.1.12
+
+Fixes
+- Fixed ANOTHER issue where dungeon configuration just wouldn't work.
+
+## Version 0.1.11
+
+Fixes
+- Fixed an issue where dungeon configuration just wouldn't work.
+
+## Version 0.1.10
+
+Fixes
+- Fixed an issue where disabling configuring moons would softlock the game.
+
+## Version 0.1.9
+
+Fixes
+- Fixed an issue where changing the interior multiplier would cause desyncs in interiors. (Finally!)
+
+## Version 0.1.8
+
+Features
+- Added various settings around scan nodes for items and enemies.
+
+Fixes
+- Fixed an issue where configuration would not generate if an enemy did not have an EnemyAI.
+
+## Version 0.1.7
+
+Features
+- Added group spawn count value for enemies.
+
+Fixes
+- Fixed the changelog.
+- Fixed an issue where trying to configure advanced dungeon properties would not work.
+
+## Version 0.1.6
+
+Fixes
+- Moved the 'warning' to the correct setting after some further issue diagnosing.
+
+## Version 0.1.5
+
+Features
+- Added more advanced dungeon configuration options.
+
+Fixes
+- Added a warning to configuring dungeon types due to reported desyncs (will fix whenever I find out the issue).
+
+## Version 0.1.4
+
+Fixes
+- Fixed dungeon configuration not recognizing the internal name of a dungeon flow.
+
+## Version 0.1.3
+
+Features
+- Added an option to initialize later than usual, allowing Lunar Config to port settings from CentralConfig
+- Added an option to clear orphaned config entries
+
+## Version 0.1.2
+
+Features
+- Added credits worth value for shop items
+- Added normalized time to leave for enemies
+
+Fixes
+- Fixed an error that would occur if a moon had certain characters in it's name
+
+## Version 0.1.1
+
+- Removed accidental dependency on LobbyCompatability (oops)
+
+## Version 0.1.0
+
+- Initial Release

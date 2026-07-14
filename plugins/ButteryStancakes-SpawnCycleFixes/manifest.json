@@ -1,0 +1,9 @@
+{
+    "name": "SpawnCycleFixes",
+    "version_number": "1.2.2",
+	"website_url": "https://github.com/ButteryStancakes/SpawnCycleFixes",
+    "description": "Fixes various bugs with the spawn cycle, making enemy spawns more consistent and fair.",
+    "dependencies": [
+		"BepInEx-BepInExPack-5.4.2305"
+	]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "MikuFumoMod",
+    "version_number": "1.1.1",
+    "description": "Adds Hatsune Miku Fumo Plushie into the game. Has LethalConfig support for spawn-rate customization.",
+    "website_url": " ",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Evaisa-LethalLib-0.16.2",
+        "AinaVT-LethalConfig-1.4.6"  
+    ]
+
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Nightmare_Moons",
+    "version_number": "2.6.6",
+    "website_url": "",
+    "description": "A sextilogy of Atmospheric Horror inspired moons.",
+    "dependencies": [
+        "Evaisa-LethalLib-1.1.0",
+		"IAmBatby-LethalLevelLoader-1.4.11",
+		"AudioKnight-StarlancerAIFix-3.9.1",
+		"BepInEx-BepInExPack-5.4.2100",
+		"Evaisa-HookGenPatcher-0.0.5",
+		"MaxWasUnavailable-LethalModDataLib-1.2.2",
+		"JacobG5-JLL-1.9.5"
+    ]
+}

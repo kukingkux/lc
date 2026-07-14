@@ -1,0 +1,494 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "ChuxiaFixes/1.0.5": {
+        "dependencies": {
+          "BepInEx.AssemblyPublicizer.MSBuild": "0.4.3",
+          "BepInEx.Core": "5.4.21",
+          "LethalCompany.GameLibs.Steam": "73.0.0-ngd.0"
+        },
+        "runtime": {
+          "ChuxiaFixes.dll": {}
+        }
+      },
+      "BepInEx.AssemblyPublicizer.MSBuild/0.4.3": {
+        "runtime": {
+          "lib/netstandard2.1/AsmResolver.DotNet.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          },
+          "lib/netstandard2.1/AsmResolver.PE.File.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          },
+          "lib/netstandard2.1/AsmResolver.PE.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          },
+          "lib/netstandard2.1/AsmResolver.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          },
+          "lib/netstandard2.1/BepInEx.AssemblyPublicizer.MSBuild.dll": {
+            "assemblyVersion": "0.4.3.0",
+            "fileVersion": "0.4.3.0"
+          },
+          "lib/netstandard2.1/BepInEx.AssemblyPublicizer.dll": {
+            "assemblyVersion": "0.4.3.0",
+            "fileVersion": "0.4.3.0"
+          }
+        }
+      },
+      "BepInEx.BaseLib/5.4.20": {
+        "runtime": {
+          "lib/netstandard2.0/BepInEx.dll": {
+            "assemblyVersion": "5.4.20.0",
+            "fileVersion": "5.4.20.0"
+          }
+        }
+      },
+      "BepInEx.Core/5.4.21": {
+        "dependencies": {
+          "BepInEx.BaseLib": "5.4.20",
+          "HarmonyX": "2.7.0"
+        }
+      },
+      "HarmonyX/2.7.0": {
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "21.12.13.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/0Harmony.dll": {
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.0.0"
+          }
+        }
+      },
+      "LethalCompany.GameLibs.Steam/73.0.0-ngd.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "UnityEngine.Modules": "2022.3.9"
+        }
+      },
+      "Mono.Cecil/0.11.4": {
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          }
+        }
+      },
+      "MonoMod.RuntimeDetour/21.12.13.1": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.4",
+          "MonoMod.Utils": "21.12.13.1",
+          "System.Reflection.TypeExtensions": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoMod.RuntimeDetour.dll": {
+            "assemblyVersion": "21.12.13.1",
+            "fileVersion": "21.12.13.1"
+          }
+        }
+      },
+      "MonoMod.Utils/21.12.13.1": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.4",
+          "System.Reflection.TypeExtensions": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoMod.Utils.dll": {
+            "assemblyVersion": "21.12.13.1",
+            "fileVersion": "21.12.13.1"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "System.Reflection.TypeExtensions/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.TypeExtensions.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "UnityEngine.Modules/2022.3.9": {
+        "runtime": {
+          "lib/netstandard2.0/UnityEngine.AIModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.AccessibilityModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.AndroidJNIModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.AnimationModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.AssetBundleModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.AudioModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.ClothModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.ClusterInputModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.ClusterRendererModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.ContentLoadModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.CoreModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.CrashReportingModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.DSPGraphModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.DirectorModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.GIModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.GameCenterModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.GridModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.HotReloadModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.IMGUIModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.ImageConversionModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.InputLegacyModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.InputModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.JSONSerializeModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.LocalizationModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.ParticleSystemModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.PerformanceReportingModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.Physics2DModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.PhysicsModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.ProfilerModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.PropertiesModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.ScreenCaptureModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.SharedInternalsModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.SpriteMaskModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.SpriteShapeModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.StreamingModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.SubstanceModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.SubsystemsModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.TLSModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.TerrainModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.TerrainPhysicsModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.TextCoreFontEngineModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.TextCoreTextEngineModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.TextRenderingModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.TilemapModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UIElementsModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UIModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UmbraModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityAnalyticsCommonModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityAnalyticsModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityConnectModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityCurlModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityTestProtocolModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestAssetBundleModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestAudioModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestTextureModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestWWWModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.VFXModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.VRModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.VehiclesModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.VideoModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.VirtualTexturingModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.WindModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.XRModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/UnityEngine.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChuxiaFixes/1.0.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BepInEx.AssemblyPublicizer.MSBuild/0.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z8Qs3JTTHZG1q0DCqY+HFJ8xp92tkEXWyQ7roeWgUvn20tjv0ZNfAdyy13XrRS1jeEoN/weJc81747TbvvwaDg==",
+      "path": "bepinex.assemblypublicizer.msbuild/0.4.3",
+      "hashPath": "bepinex.assemblypublicizer.msbuild.0.4.3.nupkg.sha512"
+    },
+    "BepInEx.BaseLib/5.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0bXgYxbCEN2Ixp3kiFEhyw+RASeFQeg/ww+lbMt7if6XMeVS60eg6epNsMA8Jbx57dmNOzNevkKKw8mP8SUMqw==",
+      "path": "bepinex.baselib/5.4.20",
+      "hashPath": "bepinex.baselib.5.4.20.nupkg.sha512"
+    },
+    "BepInEx.Core/5.4.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NMUPlbHTTfJ+qIQCI90uIvjuUQ4wnwt4cpRsK3ItBh1DhsWFzAHXNiZjBxZkPysljEKQ2iu89sxMTga4bxBXVQ==",
+      "path": "bepinex.core/5.4.21",
+      "hashPath": "bepinex.core.5.4.21.nupkg.sha512"
+    },
+    "HarmonyX/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lec/SkduQspMa3Pi/nM/NSvA84Za8HCCWA8ybdToKiTqnBZa+JC5g6rxoFQCg/1vNuYcvjy77edePZzIEsRmvw==",
+      "path": "harmonyx/2.7.0",
+      "hashPath": "harmonyx.2.7.0.nupkg.sha512"
+    },
+    "LethalCompany.GameLibs.Steam/73.0.0-ngd.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iaHCHoJTFiTnAyAYIrEbjCJOOuhcJ42+KJnEbmCmf4UdkhjSwwio2bcdPCbchodB9kEp+3v3ATgkBwYn56/Gdw==",
+      "path": "lethalcompany.gamelibs.steam/73.0.0-ngd.0",
+      "hashPath": "lethalcompany.gamelibs.steam.73.0.0-ngd.0.nupkg.sha512"
+    },
+    "Mono.Cecil/0.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IC1h5g0NeJGHIUgzM1P82ld57knhP0IcQfrYITDPXlNpMYGUrsG5TxuaWTjaeqDNQMBDNZkB8L0rBnwsY6JHuQ==",
+      "path": "mono.cecil/0.11.4",
+      "hashPath": "mono.cecil.0.11.4.nupkg.sha512"
+    },
+    "MonoMod.RuntimeDetour/21.12.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-65mB+bHjT6UCGCgO+/pYhpuGPf96rQ1Whwkut/x7cqVIW0DTndDFyWc/3bngzhnY/Y6IYtBMlXsU2ATq+CxpHg==",
+      "path": "monomod.runtimedetour/21.12.13.1",
+      "hashPath": "monomod.runtimedetour.21.12.13.1.nupkg.sha512"
+    },
+    "MonoMod.Utils/21.12.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/H+0RMWqx/D1/fSuY5jhY6GFvqhdYdlnI7J3IfL8P6y4nJkoZDxqts6+RxWWOz4pbnJdWnxSjS8XG+Lq6rUi7w==",
+      "path": "monomod.utils/21.12.13.1",
+      "hashPath": "monomod.utils.21.12.13.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VybpaOQQhqE6siHppMktjfGBw1GCwvCqiufqmP8F1nj7fTUNtW35LOEt3UZTEsECfo+ELAl/9o9nJx3U91i7vA==",
+      "path": "system.reflection.typeextensions/4.7.0",
+      "hashPath": "system.reflection.typeextensions.4.7.0.nupkg.sha512"
+    },
+    "UnityEngine.Modules/2022.3.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sSxqZjd05U0NWlX+eappdlsEuXFvDRHkUaClDVTocGRzCmIwNvgGJIPh22lGklIpNZ3cJZneYJkIUnEIazR8VA==",
+      "path": "unityengine.modules/2022.3.9",
+      "hashPath": "unityengine.modules.2022.3.9.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,716 @@
+ManifestFileVersion: 0
+CRC: 2626348798
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 160f26d1d56edd3fcd6d4e28c56f8d0e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 496069cc342fc30f153951b258aec6c0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 160f26d1d56edd3fcd6d4e28c56f8d0e
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1858228040, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 555809186, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1894684129, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -558552283, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 307283845, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 1882829960, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -930271490, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 963672346, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1979917740, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 1784636202, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 1368946873, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 136903605, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1821139714, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 1662091202, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 1271149390, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 1906829081, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 140182669, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1669092212, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1790050701, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1784376999, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1739589620, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1204924431, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: 157402786, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1933571454, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 114
+  Script: {fileID: -1709533755, guid: 0392ffa6353ffc1214a0df459d9bb3da, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: EnemySkinKit
+  ClassName: AntlerShed.EnemySkinKit.SkinAction.AudioAction
+- AssemblyName: EnemySkinKit
+  ClassName: AntlerShed.EnemySkinKit.SkinAction.AudioListAction
+- AssemblyName: EnemySkinKit
+  ClassName: AntlerShed.EnemySkinKit.SkinAction.ColorAction
+- AssemblyName: EnemySkinKit
+  ClassName: AntlerShed.EnemySkinKit.SkinAction.MaterialAction
+- AssemblyName: EnemySkinKit
+  ClassName: AntlerShed.EnemySkinKit.SkinAction.ParticleSystemAction
+- AssemblyName: EnemySkinKit
+  ClassName: AntlerShed.EnemySkinKit.SkinAction.SkinnedMeshAction
+- AssemblyName: EnemySkinKit
+  ClassName: AntlerShed.EnemySkinKit.SkinAction.StaticMeshAction
+- AssemblyName: EnemySkinKit
+  ClassName: AntlerShed.EnemySkinKit.SkinAction.TextureAction
+Assets:
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/BouncyGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/StoneDebrisIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/HardenedAmberMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/WasteSludge.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SinisterGrayTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/LushGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/FabulousGlory.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/ElderWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/HazedSeaIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/HexPurpleMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/BarkBrownTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/CopperOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/HiddenGrayTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/JetBlackMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/UnnaturalYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/CheeryCyanIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/DesertedPurple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/DullBrownTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/JetBlackTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/GrassGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/MerryMagentaTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/MarineBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/WarmTanBabyTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/WindyBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/RefinedBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FosterBrownMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/PeriplanetaAdult 1.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/Peachy Red.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/SubmergedBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/ZSnareFleaMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/AlaskanPink.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/DiverBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/SandyYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/WasteSludgeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/BouncyGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/MiscoloredPink.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/StrandedOrangeF.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/HardenedAmberIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/ShroudGraySkin.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/NavyBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/DesertedTanHornet.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/BananaYellow_Icon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/SandyYellowText.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/MilitaryGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/BeachedTanIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/ZButlerMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/IsolatedWhiteTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraPurple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/EliteRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/JetBlack.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/HazardYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/TeenyTealIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FosterBrownTex 2.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/DesertedTanTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/WashedBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/JoyousPurple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/RatherPinkLeaves.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/WoodsRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/GrassGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/PeachyRed_Icon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/SlugGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/BlankGray.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/CopperOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/HazedSea.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/ZBugMap2.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/OutlandishPurpleIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/PlayfulPinkIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/SlothfulGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/SeekerOrangeSkin.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/HiddenBlackTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/GreatWhite.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/GrassGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/SlothfulGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/WaspYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/SnowWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/UnnaturalYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/ZBugMap1.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/CharredWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/RefurbishedWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/ShiningBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/AgentBlackTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/ZSapMask.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/ShiningBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/RefurbishedWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/HiddenGray.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/WarmPink.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/Peek-A-BooYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/CamoGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/BananaYellowAdultTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/FrostWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdCyan.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/PeriplanetaIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/Dupe Purple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/SpeedyOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/StrandedOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/PlayfulPink.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/RustedBrownTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/RustedOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/DustyOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/MidnightBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/Warm Tan.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/DustyOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/ToxicGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/HardenedAmber.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/SneakyPurple.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/WasteGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/HibernateWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/ManBabyGray.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/CharredWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/SneakyPurple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/Peek-A-BooYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/LavaBlobIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/FleetingGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/AlaskanPinkMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/RunnySnow.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/Blue.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/AgentBlack.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/WasteSludge.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/BeetleYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/MustardYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/WashedBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/DuneYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/ShroudGrayLeaves.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/RefurbishedWhitev2.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/AggressiveRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/ShiningBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/AdaptiveWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/AntsyOrangeTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SecludedGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/ZealousBrownTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/SeaJellyIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/IsolatedWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/PeachyRedBabyTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/MidnightBlueText.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/HoppyOrangeMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/MarshGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/HardenedAmberTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/Mirage Orange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/SunnyYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/BlubberBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/AdaptiveWhite.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/SubmergedBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/FlutterGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/WarmPink.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/HighBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/ManBabyGray_Icon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/MilitaryGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/PleasantPinkMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/DiversionGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/LavishPurpleMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/CarpenterBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/MiscoloredOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/IsolatedWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/AgentBlackIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/BloodRed.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/CopperOrangeTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SinisterGray.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SinisterGrayHornet.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/WarmPink.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/White.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/NatureGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/Peek-A-BooYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/FlutterGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/MetallicGreen.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/Refurbished White.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/TaffyYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SinisterGrayMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/Hidden Black.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/MattedBrown.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/StiffWhiteTex 1.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/BananaYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/SneakyPurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/FleetingGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/Periplaneta.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/BouncyGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/RustedOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/SkyBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/WashyTealBabyTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/WindyBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/JoyousPurpleMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/RefinedBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraPurpleMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/UnnaturalYellowMat.mat
+- Assets/Work/ExtraEnemyVariety/Enemies/Nutcracker/ZSpiderMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/NavyBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/DragonGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/MiscoloredPink.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/MustardYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/StompyRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/TeenyTeal.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/BigRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/MilitaryGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/RuseMaroonIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/ShroudGray.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/DesertedTan.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/MidnightBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/ShadeBlackMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/LavishPurpleIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/BeetleYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/ShadeBlack.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/ShadeBlackTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/MerryMagenta.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/Legacy/MarkedRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/MattedBrownIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/RoachBrownIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/EliteRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/WarmTan_Icon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/RelicWhiteLeaves.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/HazardYellowv2.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/BlubberBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/SeekerOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/SubmergedBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/DesertedPurpleIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/AngstyOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/AggressiveRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/StoneDebrisBaby.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/HibernateWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/SlothfulGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdCyanIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/SkyBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/BouncyGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/HiddenGrayMat.mat
+- Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/Lit.shader
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FormalRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/WaspYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FosterBrownHornet.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdMagentaIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/SicklyGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/HibernatingWhiteF.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/MirageOrangeTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/CaptainWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/RunnySnow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/BarkBrown.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/HeartPurpleIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/BloodRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SinisterGrayIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/MetallicGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/OilYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/IsolatedWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/Washy Teal.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/HexPurpleIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/DuneYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/ScaredWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/AlaskanPinkIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FosterBrown.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/MustardYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/JetBlackIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FormalRedHornet.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/SandyYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/WoodsRedMatF.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/DeepBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/WasteGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/ZHawkMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/SlushSnowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/HexPurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/BeetleYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/StiffWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/HumbleBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/MarineBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/OilYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/MustardYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/CaptainWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/ToxicGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/GrassGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/CaptainWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/FloatyBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/DupePurpleIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/MorningYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/DeepBlueLeaves.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/StoneDebrisAdult.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/Elusive White.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/WashyTealAdultTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/LonePurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/EveningOrangeTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FormalRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/LeafyGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/TarSpillIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/HeartPurpleMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/HexPurple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/HoppyOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/HunterBlack.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/ElusiveWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/OutlandishPurple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/StrandedOrangeMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/ZPuffMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/WashedBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/MorningYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/WindyBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/MiscoloredOrange.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/RatherPink.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/ShadowBlack.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/FleetingGreenFetMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/MarineBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/StiffWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/JungleGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/HibernateWhite 1.png
+- Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Unlit/Unlit.shader
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/RefinedBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/NavyBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/MerryMagentaIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/HiddenBlackIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/HighBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/StoneDebris.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/DesertedTanMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/WashedBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/LushGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/FabulousGloryIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/EveningOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/BeachedTanTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/DynamicWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/StompyRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/MarshGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/LushGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/WarmPinkIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/CavedMaroon.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/HunterBlackTex.png
+- Assets/Work/Misc/FreshTest/New Folder/ZTulipMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/ShiningBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraPurpleIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/Ourple.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/SeaJelly.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/MeatyRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/ArcticWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/MarshGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdMagenta.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/DesertedTanIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdMagentaTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraPinkMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/GreatWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/Dullbrown.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdCyanTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/HeartPurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/BloodRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/LavishPurple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/WashedBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/ArcticWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/MerryMagentaMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/WoodsRedF.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/HoppyOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraPink.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/SunnyYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/RusePurple.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/HunterBlackMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/BlankGrayTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/SpaceWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/ShadowBlackTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/SubmergedBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/ZSapEmissive.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/HunterBlackNewIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/HiddenGrayIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/HighBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/PrivateIndigo.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/EliteRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/ElderWhiteTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/PinkyRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/GiddyGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/LonePurple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/MeatyRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/HibernatingWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/WoodsRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/TaffyYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/ShroudGrayIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/NavyBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/HazardYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/SpeedyOrangeText.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/BloodClot.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/MorningYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/WashedBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/RelicWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/BoxBrown.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/SunnyYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SecludedGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SecludedGreenHornet.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/TarSpill.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FormalRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/Greem.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/PinkyRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/CavedMaroonBaby.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/PleasantPinkTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/AgentBlackMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/PlayfulPinkMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/MimicRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/SpaceWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/EveningOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/TaffyYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/SpaceWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdMagentaMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/NatureGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/DeepBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/CommandoGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/StrandedOrangeFeather.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/Pink_Nutcracker_Icon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/BeetleYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/BoxBrownTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/TarSpill.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/FrostWhiteTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/ZealousBrownMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/ZBarberMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/AdaptiveWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/BigRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SecludedGreen.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/LavaBlob.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/SpeedyOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/ZFeatherMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/CheeryCyanMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/JoyousPurpleIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/AlaskanPinkTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/StompyRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/BloodClotIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/MidnightBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/DuneYellowTex 1.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/MiscoloredOrange 1.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/SlothfulGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/Pale Gray.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/TeenyTeal.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/BlankGrayText.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/SeaJelly.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/CommandoGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/MattedBrownMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/ShadowBlackMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/OilYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/PleasantPinkIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/RustedBrown.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/SecludedGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/BananaYellowBabyTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/WashedBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/CavedMaroonIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/SlugGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/MirageOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/DiversionGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/MeatyRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/CommandoGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/LavishPurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/PleasantPink.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/ZHandMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ColdCyanMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/MiscoloredPink 1.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/WasteGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/NatureGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/CanyonOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/ToxicGreen.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/DiverBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/RatherPinkIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/SpeedyOrangeTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/BoxBrownIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/RustedOrangeMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/DullBrownIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/Legacy/MarkedRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/SicklyGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/LushGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/RustedOrangeTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/CarpenterBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/EliteRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/CamoGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/MidnightBlueF.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/ArcticWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Manticoil/DesertedPurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/LonePurpleMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/SneakyPurpleMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/BigRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/ToxicGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/DupePurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/ZSpringManMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/WashedBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/GiddyGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/MarineBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/ManAdultGray 1.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/TaffyYellowTex.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/Legacy/UnnaturalYellowIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/CamoGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/LavaBlob.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/FlutterGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/HumbleBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/HumbleBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/PrivateIndigoIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/MidnightBlueFMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/CopperOrangeMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/MimicRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/ZSapMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/AntsyOrange.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/WoodsRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/OutlandishPurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraPurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/HazedSeaAdult.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/ZealousBrownIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/DynamicWhiteTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/WaspYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/ShadowBlackIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/PeachyRedManTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/Roach Brown.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/CarpenterBlue.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/StrandedOrange.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/RelicWhiteSkin.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/MilitaryGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/SkyBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/SandyYellowTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/CaptainWhiteTexAlbino.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/FleetingGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/TrooperPinkMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/FrostWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/DeepBlueSkin.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/PrivateIndigoMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/WasteGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/CheeryCyanTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Kidnapper Fox/ElusiveWhite.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/WoodsRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/CavedMaroonAdult.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/HazardYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/Roach Brown.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/PeriplanetaBaby.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/AggressiveRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/WarmGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/RusePurple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/AggressiveRedText.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/ScaredWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/BlankGrayIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/DragonGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/ShadeBlack.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/SicklyGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/RustedBrownIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraPinkIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/RustedBrownMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Ghost Girl/SunnyYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/JoyousPurpleTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/MeatyRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/Trooper Pink.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/DragonGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/FleetingGreenF.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/StiffWhiteMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/DeadWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/BigRed.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/DiverBlueIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/SlugGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/RefinedBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/ZNormalMapGiant.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/ZLeafMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/OilYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FosterBrownIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/DynamicWhiteIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/BeachedTan.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Butler/FormalRedTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/BlubberBlueTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/TrooperPinkTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/GiddyGreenMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/CheeryCyan.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/CharredWhiteTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/ScaredWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/BarkBrownIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Circuit Bees/MetallicGreen 1.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/StompyRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/ShroudRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Nutcracker/Heart Purple.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hydrogere/FabulousGlory.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/GiddyGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/SeekerOrangeIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/HumbleBlueMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/JungleGreenSkin.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/MarshGreenTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/SpaceWhiteTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/GreatWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Old Bird/Commando Green.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/DiverBlue.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/DiversionGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/RoachBrownv2.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/HibernateWhiteFeather.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/BoxBrownMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/MimicRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/JungleGreenLeaves.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Spore Lizard/Yellow.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bunker Spider/DullBrownText.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Tulip Snake/FloraPinkTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/DiversionGreen.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Thumper/PinkyRed.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/SeekerOrangeLeaves.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/MattedBrownTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/BloodRedIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Snare Flea/BloodRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Barber/HoppyOrangeTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/WashyTeal_Icon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/WarmTanAdultTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Jester/Peek-A-BooYellowMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/AntsyOrangeMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Forest Keeper/BarkRedMat.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Roaming Locust/DustyOrangeTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/ZealousBrown.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/SlugGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Sapsucker/FleetingGreenIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/DynamicWhite.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Coilhead/DuneYellow.asset
+- Assets/Work/ColorfulEnemyVariety/Enemies/Bracken/RatherPinkSkin.mat
+- Assets/Work/ColorfulEnemyVariety/Enemies/Earth Leviathan/ZSandWormMap.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Maneater/HazedSeaBaby.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Eyeless Dog/ArcticWhiteTex.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Baboon Hawk/LonePurpleIcon.png
+- Assets/Work/ColorfulEnemyVariety/Enemies/Hoarding Bug/CharredWhiteMat.mat
+Dependencies: []

@@ -1,0 +1,9 @@
+{
+    "name": "LethalError",
+    "version_number": "1.0.6",
+    "website_url": "https://github.com/chuxiaaaa/LethalError",
+    "description": "Reduce the chances of \"An error occured!\"",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

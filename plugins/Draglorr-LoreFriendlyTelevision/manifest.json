@@ -1,0 +1,9 @@
+{
+    "name": "LoreFriendlyTelevision",
+    "version_number": "1.1.2",
+    "website_url": "",
+    "description": "Adds actually lore-friendly videos to the game.",
+    "dependencies": [
+        "Rattenbonkers-TVLoader-1.1.1"
+    ]
+}

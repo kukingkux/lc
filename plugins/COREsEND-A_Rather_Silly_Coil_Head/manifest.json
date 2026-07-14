@@ -1,0 +1,8 @@
+{
+	"name": "A_Rather_Silly_Coil_Head",
+	"author": "COREsEND",
+	"version_number": "1.4.1",
+	"website_url": "",
+	"description": "A Coilhead reskin that turns them into a very silly critter with goofy sound effects!",
+	"dependencies": ["AntlerShed-EnemySkinKit-1.2.5"]
+}

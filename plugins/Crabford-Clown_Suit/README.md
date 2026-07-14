@@ -1,0 +1,1 @@
+# Test for custom suits using x753's More Suits mod

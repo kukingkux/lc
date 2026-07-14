@@ -1,0 +1,150 @@
+{
+    "name": "UniqueItemSounds",
+    "version": "0.2.3",
+    "config": {
+        "Items:Candy": {
+            "description": "Enables grab & drop sounds for Candy.",
+            "default": true
+        },
+        "Items:ClownHorn": {
+            "description": "Enables grab & drop sounds for Clown Horn.",
+            "default": true
+        },
+        "Items:CookiePan": {
+            "description": "Enables grab, drop, and rustling sounds for Cookie Pan.",
+            "default": true
+        },
+        "Items:EggBeater": {
+            "description": "Enables grab, drop, and rustling sounds for Egg Beater.",
+            "default": true
+        },
+        "Items:Egg": {
+            "description": "Enables drop sounds for the sapsucker Egg.",
+            "default": true
+        },
+        "Items:FancyLamp": {
+            "description": "Enables drop sounds for Fancy Lamp (as well as for toggling the light via GeneralImprovements).",
+            "default": true
+        },
+        "Items:GarbageLid": {
+            "description": "Enables drop sounds for Garbage Lid.",
+            "default": true
+        },
+        "Items:GoldenCup": {
+            "description": "Enables drop sounds for Golden Cup.",
+            "default": true
+        },
+        "Items:Mug": {
+            "description": "Enables grab & drop sounds for Mug.",
+            "default": true
+        },
+        "Items:PerfumeBottle": {
+            "description": "Enables grab & drop sounds for Perfume Bottle.",
+            "default": true
+        },
+        "Items:PillBottle": {
+            "description": "Enables grab & drop sounds for Pill Bottle.",
+            "default": true
+        },
+        "Items:RedSoda": {
+            "description": "Enables grab & drop sounds for Red Soda.",
+            "default": true
+        },
+        "Items:RubberDucky": {
+            "description": "Enables grab & drop sounds for Rubber Ducky.",
+            "default": true
+        },
+        "Items:TeaKettle": {
+            "description": "Enables grab & drop sounds for Tea Kettle.",
+            "default": true
+        },
+        "Items:Toothpaste": {
+            "description": "Enables grab & drop sounds for Toothpaste.",
+            "default": true
+        },
+        "Items:ToyCube": {
+            "description": "Enables grab & drop sounds for Toy Cube.",
+            "default": true
+        },
+        "Items:ZedDog": {
+            "description": "Enables grab & drop sounds for Zed Dog.",
+            "default": true
+        },
+        "Equipment:StickyNote": {
+            "description": "Enables grab sounds for Sticky Note.",
+            "default": true
+        },
+        "Equipment:WeedKiller": {
+            "description": "Enables grab, drop, and pocket sounds for Weed Killer.",
+            "default": true
+        },
+        "Decor:LightSwitch": {
+            "description": "Enables placement & toggling sounds for Light Switch.",
+            "default": true
+        },
+        "Decor:FileCabinet": {
+            "description": "Enables placement sounds for File Cabinet.",
+            "default": true
+        },
+        "Decor:SignalTranslator": {
+            "description": "Enables placement sounds for Signal Translator.",
+            "default": true
+        },
+        "Decor:Table": {
+            "description": "Enables placement sounds for Table.",
+            "default": true
+        },
+        "TerrasScrap:BaseballGlove": {
+            "description": "Enables grab & drop sounds for Baseball Glove.",
+            "default": true
+        },
+        "TerrasScrap:Bucket": {
+            "description": "Enables grab & drop sounds for Bucket.",
+            "default": true
+        },
+        "TerrasScrap:LightBulb": {
+            "description": "Enables drop sounds for Light Bulb.",
+            "default": true
+        },
+        "TerrasScrap:PizzaBox": {
+            "description": "Enables drop sounds for Pizza Box.",
+            "default": true
+        },
+        "TerrasScrap:Spatula": {
+            "description": "Enables grab & drop sounds for Spatula.",
+            "default": true
+        },
+        "TerrasScrap:Stapler": {
+            "description": "Enables grab & drop sounds for Stapler.",
+            "default": true
+        },
+        "TerrasScrap:Wallet": {
+            "description": "Enables grab & drop sounds for Wallet.",
+            "default": true
+        },
+        "SigurdsScrap:BundleOfCords": {
+            "description": "Enables grab & drop sounds for Bundle Of Cords.",
+            "default": true
+        },
+        "LategameUpgrades:EnemySamples": {
+            "description": "Enables grab, drop, & pocket sounds for each type of Sample provided by killing enemies.",
+            "default": true
+        },
+        "ReusedSounds:Wesley": {
+            "description": "Applies Fancy Lamp audio to the Tall Lamp from Trite by Wesley.",
+            "default": true
+        },
+        "ReusedSounds:LC_Office": {
+            "description": "Applies Red Soda audio to the alternate soda cans from LC_Office.",
+            "default": true
+        },
+        "ReusedSounds:MetalItemVariants": {
+            "description": "Applies Cookie Pan & Egg Beater audio to the similar items from MetalItemVariants.",
+            "default": true
+        },
+        "ReusedSounds:LCGoldScrapMod": {
+            "description": "Applies Egg Beater, Cookie Pan, and Tea Kettle audio to the similar items from LCGoldScrapMod.",
+            "default": true
+        },
+    }
+}

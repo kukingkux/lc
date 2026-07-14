@@ -1,0 +1,105 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "LightSwitchContainer:LightSwitch:FlashlightClickMini2"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Decor/LightSwitch_Off.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Decor:LightSwitch",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "LightSwitchContainer:LightSwitch:FlashlightClickMini"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Decor/LightSwitch_On.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Decor:LightSwitch",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:MoveShipObjectPaper"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Decor/LightSwitch_Move.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Decor:LightSwitch",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "SignalTranslator:PlacementCollider:MoveShipObjectBig"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Decor/SignalTranslator_Move.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Decor:SignalTranslator",
+                "value": true
+            }
+        },
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "FileCabinet:Cube:MoveShipObjectBig"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Decor/FileCabinet_Move.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Decor:FileCabinet",
+                "value": true
+            }
+        }
+    ],
+    "replacements": [
+        {
+            "matches": [
+                "NormalTableContainer:PlacementCollider:MoveShipObjectBig"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Decor/Table_Move1.ogg",
+                    "weight": 70
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Decor/Table_Move2.ogg",
+                    "weight": 30
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Decor:Table",
+                "value": true
+            }
+        }
+    ]
+}

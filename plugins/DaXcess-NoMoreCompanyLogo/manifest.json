@@ -1,0 +1,7 @@
+{
+  "name": "NoMoreCompanyLogo",
+  "description": "Tell me you are using MoreCompany, without telling me you are using MoreCompany. Updated for V66, MoreCompany v1.10.2.",
+  "version_number": "1.1.0",
+  "dependencies": ["BepInEx-BepInExPack-5.4.2100"],
+  "website_url": "https://github.com/DaXcess/NoMoreCompanyLogo"
+}

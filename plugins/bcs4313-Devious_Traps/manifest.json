@@ -1,0 +1,12 @@
+{
+	"name": "Devious_Traps",
+	"version_number": "1.6.3",
+	"website_url": "https://github.com/bcs4313/Devious-Traps",
+	"description": "Adds 5 traps, a saw turret, flame turret, soundcannon, plasma cannon and mouse traps. Fully customizable.",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100",
+		"Evaisa-HookGenPatcher-0.0.5",
+		"Evaisa-LethalLib-1.2.0",
+		"AinaVT-LethalConfig-1.4.6"
+	]
+}

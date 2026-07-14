@@ -1,0 +1,9 @@
+{
+    "name": "LoadingInfo",
+    "version_number": "1.1.4",
+    "website_url": "",
+    "description": "display the players who have not yet finished loading.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

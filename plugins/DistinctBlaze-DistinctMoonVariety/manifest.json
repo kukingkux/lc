@@ -1,0 +1,12 @@
+{
+	"name": "DistinctMoonVariety",
+	"author": "DistinctBlaze",
+	"version_number": "3.0.5",
+	"website_url": "",
+	"description": "[v81] Adds 4 new moons to Lethal Company.",
+	"dependencies": [
+            "IAmBatby-LethalLevelLoader-1.7.1",
+            "JacobG5-JLL-1.10.1",
+            "ScienceBird-Universal_Radar-1.2.4"
+        ]
+}

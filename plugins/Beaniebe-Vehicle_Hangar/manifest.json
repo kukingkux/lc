@@ -1,0 +1,14 @@
+{
+  "name": "Vehicle_Hangar",
+  "version_number": "1.2.3",
+  "website_url": "",
+  "description": "A large hangar interior with 3 biome variants, custom hazards and fans!",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Evaisa-HookGenPatcher-0.0.5",
+    "IAmBatby-LethalLevelLoader-1.6.9",
+    "JacobG5-JLL-1.9.10",
+    "Beaniebe-Beanie_Lib-1.0.0",
+    "pacoito-itolib-0.9.3"
+  ]
+}
