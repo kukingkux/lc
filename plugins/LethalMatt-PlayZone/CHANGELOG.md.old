@@ -1,0 +1,188 @@
+# Changelog
+
+## [1.1.4]
+
+- Updated for latest [itolib](https://thunderstore.io/c/lethal-company/p/pacoito/itolib) version.
+
+## [1.1.3]
+
+- Recompiled for LC `v73`.
+
+## [1.1.2]
+
+- Greatly improved elevator enemy pathfinding.
+  - Fast-moving enemies (e.g. max speed Jester) should no longer bypass the elevator trickery and go up through the floor.
+    - Big thanks to [Zaggy1024](https://github.com/Zaggy1024) for guiding me in the right direction as to how to fix this!
+  - Enemies are now able to follow the player back down the elevator as well!
+  - Replaced moving `NavMeshLinks` with `OffMeshLinks`, to fix some possible pathing issues while the elevator was moving.
+- Added interactability to both teams' Apparatuses:
+  - `[Q]` can now be pressed to toggle its ambient particle effects while plugged-in.
+  - `[LMB]` can now be pressed to play its explosion particle effect when being unplugged.
+- Disabled `Read/Write` flag for all assets that didn't need it (which was nearly all of them).
+  - Tweaked nearly all prefabs and tiles to either use `NavMeshModifierVolumes`, or a different layer that doesn't generate NavMesh.
+- Added a few more moons to the default spawn list.
+- Did a few other small miscellaneous generation tweaks and fixes.
+- Updated for latest [itolib](https://thunderstore.io/c/lethal-company/p/pacoito/itolib), which includes a few fixes as well.
+
+## [1.1.1]
+
+A few pretty small fixes.
+
+- Blacklisted Tulip Snakes from pushing elevator buttons.
+- Tweaked throw trajectory curve for the Extreme Dodgeball.
+- Fixed a specific trampoline not being spawned properly.
+- Fixed elevator doors not automatically closing without any players inside.
+- Fixed elevator alarm button not playing its sound.
+
+## [1.1.0]
+
+A ton of quality of life changes, fixes, adjustments, overhauls, and other stuff!
+
+- Drastically overhauled generation once again:
+  - Reduced overall dungeon size even more, it's a lot more reasonable while remaining fairly large.
+    - **NOTE:** It is recommended to reset to the default dungeon size, if you've tweaked dungeon size through LLL or other means.
+  - Several tiles now have multiple Entrance/Exit `Doorways`, which allows for some pretty interesting generation.
+  - Realigned all `Doorways` a lot better, and adjusted tile bounds.
+    - Generation has become extremely square, and there's higher chances for naturally-generated looping paths!
+  - Added a couple new tiles, though nothing too crazy.
+  - Removed a few smaller tiles from being able to generate in the main path.
+  - Split several meshes to make a few tiles even more modular.
+  - Made global props scale dynamically with the moon's size multiplier.
+- Various improvements to scrap spawns:
+  - Scrap is no longer teleported from other locations over to the 'guaranteed' spawn spots.
+    - There are now additional spawned items outside the moon's natural spawns; it can be thought of like the vanilla Mineshaft scrap bonus.
+    - These additional item spawners are regulated a bit via global props, which also scale dynamically with the moon's size multiplier.
+  - Removed the scrap spawn node in tube windows at the ends of branch paths.
+    - It made loot pretty sparse, and it feels a lot better to focus on searching for scrap in the larger tiles.
+  - Removed scrap spawn nodes inside the TykeZone's Playhouse, opting instead to have only additional items spawning there.
+    - Added a tabletop scrap spawn node on top of the toddler blocks, though.
+  - Added some more scrap spawn nodes to the JumpZone and LaserZone, and all composite tiles.
+- Added the ability for players to jump repeatedly to get out of cube pits, provided they have enough stamina.
+  - Implementation is admittedly a bit jank, but it should make the cube pits feel a lot more fair.
+  - Quicksand sinking sound effect will also very likely be replaced as soon as I find a suitable alternative.
+- Made the Trapeze (swinging bar) completely automatic, instead of requiring `Jump` to be held.
+  - Jumping into it will now simply drop players on the other side.
+- Made trampoline force applied to the player be applied gradually instead of instantly, which makes it feel a bit more like actual bouncing.
+  - Also made crouching prevent players from bouncing on trampolines, which should make picking up items that spawn on them a lot less tedious to grab.
+- Made swirly slide require players to interact with an `InteractTrigger` in order to begin sliding.
+  - Also drastically smoothed out the sliding animation, and switched up the color variants for them.
+- Added **four** more incredible posters to the main entrance tile, drawn by [MayaModez](https://mayamodez.straw.page)!
+  - **NOTE:** You _are_ required to check out her stuff, or you _will_ be banned from the bouncy castle 🏰.
+- Made several improvements to a certain rare, lore-related event at the PartyZone.
+- Made items able to cause a splash upon being dropped into the ball pit.
+- Made enemies able to 'hit' punching bags, when coming into contact with them.
+- Made pretty much every ambient `AudioSource` only play its sounds when the local player enters the room they're in (for lights, vents, vending machines), or when getting up close (for rotators).
+  - Avoids having too many sources playing at once, all the time.
+  - Most likely fixes some reported sound issues (e.g. footsteps becoming inaudible, even with [LCMaxSoundsFix](https://thunderstore.io/c/lethal-company/p/Hardy/LCMaxSoundsFix)), but also is just generally good for performance.
+- Adjusted the default sound effect volume for a few ambient props.
+- Fixed some audio config settings not applying due to being assigned to the wrong thing.
+- Fixed any dropped `Rigidbody` suddenly flying away when landing in front of the elevator.
+  - Some physics jank involving `PositionConstraints` was causing this... not really sure why.
+- Fixed player camera freaking out a bit when sitting down on the TykeZone's bean bag.
+  - Caused by the game trying to correct the slight player tilt that was previously applied.
+- Fixed Riimote explosion not spawning in the correct location.
+- Fixed enemies not being able to kick PlayZone's kickable items (or have Dodgeballs thrown at them).
+- Fixed some enemy pathing issues for a few tiles.
+- Fixed Apparatus value scan nodes not updating correctly after being halved, when using [FacilityMeltdown](https://thunderstore.io/c/lethal-company/p/loaforc/FacilityMeltdown).
+- Reduced interior weights for most vanilla moons, so it doesn't show up as often if PlayZone is the only custom interior installed.
+- Added several more moons to the default spawn weights list.
+- Probably missed a few changes, though they're likely very small adjustments or tweaks.
+
+## [1.0.5]
+
+Overhauled dungeon generation; did a bunch of other tweaks and fixes, too.
+
+- Fixed ambient prop sound effects having a pretty noticeable performance impact.
+  - Adjusted load type settings and enabled preloading for all sound effects.
+  - Removed most `OccludeAudio` instances, though I'm not sure how much they were actually affecting things.
+- Added config settings to tweak the volume of ambient prop sounds.
+- Made players no longer sink through the floor after having fallen prey to the cubes.
+  - Still working on making cubes feel a bit more fair, but for now I've made the spheres to jump on slightly larger (though only in the short hallway tile).
+- Added some more scrap spawn nodes to the LaserZone.
+- Adjusted TykeZone door and window sound effects.
+- Fixed a pretty visible seam in the `Apparatus` model, it's nice and smooth now!
+- Fixed multiple players entering a seat at the same time causing them to softlock.
+  - Reworked interactable seats to use `PlayerSeater`, like slides.
+- Fixed not being able to jump out of the ball pit without stamina.
+- Made the `OutOfBoundsTrigger` of any moon PlayZone generates in lower itself accordingly, in case it generates too vertically.
+- Did a bit of refactoring to the project plugin.
+
+---
+
+- Trying out some pretty drastic (experimental) generation changes, to see if it feels a bit better to loot.
+  - **NOTE:** If you adjusted PlayZone's dungeon size through LLL or another mod, make sure to change it accordingly (or set it back to defaults), since the overall dungeon size was lowered a fair bit.
+  <details><summary>Specific changes to generation (spoiler):</summary>
+  <ul>
+    <li>Lowered base dungeon length from <code>22-28</code> to <code>18-22</code> tiles.</li>
+    <li>Max branch length lowered from <code>2-5</code> to <code>2-4</code> tiles.</li>
+    <li>Branch count lowered from <code>18-25</code> to <code>12-18</code> branches.</li>
+    <li>Played around with generation weights for a good number of tiles:</li>
+      <ul>
+        <li>Made short hallway cube pit tiles unable to show up in the main path, so it's not required to cross them to get to another Zone.</li>
+        <li>Made <code>2x2x3_Jumps</code>, <code>3x3</code>, and <code>4x4_Balls</code> tiles unable to generate in branch paths, so as to avoid any of these having a single, dead-end path.</li>
+        <li>Likewise, made both composite playground tiles only able to generate in the main path.</li>
+      </ul>
+    <li>Separated main path tiles and branch tiles into different tilesets, so that their depth curves won't affect each other.</li>
+  </ul>
+  </details>
+
+## [1.0.4]
+
+Reworked trampoline hallway, tweaked some audio stuff, did a few other tweaks.
+
+- Made trampoline trajectories in the trampoline hallway (hopefully) a bit more intuitive, should be a bit easier to get across.
+  - Still working on making the cubes less punishing, but this'll do for now...
+- Did some ambient audio-related adjustments.
+  - A config setting for each of the ambient sounds is planned, but not yet made.
+- Added some lights to the trampoline hallway, though they're not guaranteed to show up.
+- Added [LCMaxSoundsFix](<https://thunderstore.io/c/lethal-company/p/Hardy/LCMaxSoundsFix>) as a dependency.
+- Increased PlayZone spawn weights for a bunch of moons.
+
+## [1.0.3]
+
+This update includes many new audio clips, expanded lore, some compatibility stuff, and a few general tweaks.
+
+- Added a suite of new immersive audios
+  - Air conditioner vents
+  - Fluorescent light humming
+  - Vending machines humming
+  - Spinning hazards have ambient wooshing
+  - Bowling alley pins more audible
+- Added a light to the soda vending machine
+- Added some spheres into the foam cube trampoline tile to make it a bit easier to get across.
+- Adjusted triplanar values for dark ceiling tiles to line up with lights and a/c vents.
+- Changed HDRI skybox image.
+- Added compatibility with Blackout weather. (itolib 1.0.4+)
+  - Also added some compatibility with Gorgonzola and Legend Weathers!
+- For real added cosmetics this time. (Forgor to put them in the last update.)
+- Added a new lore map object that spawns with the `Cold Pizza` log.
+- `Cold Pizza` now spawns in one dedicated spot and weight was changed from `3` to `9`.
+
+## [1.0.2]
+
+Some feedback-based adjustments, tweaks, and fixes; but also cosmetics!
+
+- Reduced overall size of dungeon a fair bit, mainly targeting number of branch paths and their length.
+- Adjusted all hazard and scrap nodes to avoid potentially floating hazards, as well as items spawning inside the LaserZone pillars (or going through the floor, but that was due to something library-related).
+- Custom scrap with 'set' locations now have their intended rotation when they show up there (e.g. Bowling balls on shelves being in slight disarray).
+- Added a scan node to swinging bars, with brief instructions on how to grab on to it.
+- Fixed (hopefully) rotator hazards potentially being able to push people through walls and out of the map, when going extremely fast.
+- Adjusted some of the custom scraps' values and rarities a bit.
+- Added a few PlayZone-themed cosmetics for [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany):
+  - `Laser Vest`
+  - `Laser Gun`
+  - `Ball Cannon`
+  - `Cardboard Crown`
+  - <details><img alt="New cosmetics!" src="https://i.imgur.com/Zz8vID5.png" width=720></details>
+
+## [1.0.1]
+
+Small post-release tweaks/fixes!
+
+- Renamed some parts of the CosmicZone Pinsetters to match the expected vanilla structure a bit more.
+  - Should stop some errors with [ScienceBird Tweaks](https://thunderstore.io/c/lethal-company/p/ScienceBird/ScienceBird_Tweaks) and [CodeRebirth](https://thunderstore.io/c/lethal-company/p/XuXiaolan/CodeRebirth).
+- Tweaked loot spawns a bit.
+
+## [1.0.0]
+
+Initial release!

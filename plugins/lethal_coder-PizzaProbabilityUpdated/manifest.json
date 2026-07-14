@@ -1,0 +1,10 @@
+{
+	"name": "PizzaProbabilityUpdated",
+	"version_number": "1.2.6",
+	"website_url": "",
+	"description": "Adds per-moon chance to the FacilityMeltdown mod. Improves interoperability with PizzaTowerEscapeMusic. Includes optional extras.",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100",
+		"loaforc-FacilityMeltdown-2.7.4"
+	]
+}

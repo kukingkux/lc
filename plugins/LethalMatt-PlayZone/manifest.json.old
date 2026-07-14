@@ -1,0 +1,12 @@
+{
+    "name": "PlayZone",
+    "version_number": "1.1.4",
+    "website_url": "",
+    "description": "[v73] A custom interior for company employees to bring their families to. Created by LethalMatt and pacoito.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "pacoito-LethalLevelLoaderUpdated-1.5.1",
+        "pacoito-itolib-0.6.0",
+        "Hardy-LCMaxSoundsFix-1.2.0"
+    ]
+}

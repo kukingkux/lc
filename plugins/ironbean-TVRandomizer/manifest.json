@@ -1,0 +1,9 @@
+{
+    "name": "TVRandomizer",
+    "description": "Randomizes the order of videos in the TV on ship landing.",
+    "version_number": "1.0.2",
+    "dependencies": [
+        "Rattenbonkers-TVLoader-1.1.1"
+    ],
+    "website_url": "https://twitter.com/spaghettitron"
+}

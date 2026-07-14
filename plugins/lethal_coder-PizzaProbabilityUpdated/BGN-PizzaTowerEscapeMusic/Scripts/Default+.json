@@ -1,0 +1,246 @@
+{
+    "comment": "A replacement for the Default script that includes extra music from Pizza Tower. Bundled with PizzaProbability",
+    "volumeGroups": [
+        {
+            "tag": "EscapeMusic",
+            "volumeLerpSpeed": 2,
+            "stoppingVolumeLerpSpeed": 0.25,
+            "volumeRules": [
+                {
+                    "comment": "Spectator volume",
+                    "volume": 0.5,
+                    "condition": {
+                        "conditionType": "Not",
+                        "condition": {
+                            "conditionType": "PlayerAlive"
+                        }
+                    }
+                },
+                {
+                    "comment": "Inside facility volume",
+                    "volume": 1,
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Facility"
+                    }
+                },
+                {
+                    "comment": "Inside ship volume",
+                    "volume": 0.4,
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Ship"
+                    }
+                },
+                {
+                    "comment": "Default volume",
+                    "volume": 0.7
+                }
+            ],
+            "volumeModifiers": [
+                {
+                    "comment": "Crouching volume scale",
+                    "volumeScale": 0.5,
+                    "condition": {
+                        "conditionType": "PlayerCrouching"
+                    }
+                }
+            ]
+        }
+    ],
+    "scriptEvents": [
+        {
+            "comment": "The music that plays when the early leave alert is called on 5-Embrion",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "CurrentMoon",
+                    "moonName": "5 Embrion"
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "PizzaTimeNeverEnds.ogg"
+            ]
+        },
+        {
+            "comment": "The music that plays during an eclipse when the early leave alert is called",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "Weather",
+                    "weather": "Eclipsed"
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ThousandMarch.ogg"
+            ]
+        },
+		{
+            "comment": "The music that plays during a storm when the early leave alert is called",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "Weather",
+                    "weather": "Stormy"
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "Unexpectancy.ogg"
+            ]
+        },
+        {
+            "comment": "The music that plays when the early leave alert is called after 8PM",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "And",
+                    "conditions": [
+                        {
+                            "conditionType": "Weather",
+                            "weather": "None"
+                        },
+                        {
+                            "conditionType": "TimeOfDay",
+                            "comparisonType": "GreaterThanOrEquals",
+                            "time": 0.75
+                        }
+                    ]
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ByeByeThere.ogg"
+            ]
+        },
+        {
+            "comment": "The music that plays when the early leave alert is called after 4PM",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "And",
+                    "conditions": [
+                        {
+                            "conditionType": "Weather",
+                            "weather": "None"
+                        },
+                        {
+                            "conditionType": "TimeOfDay",
+                            "comparisonType": "GreaterThanOrEquals",
+                            "time": 0.5
+                        }
+                    ]
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "TheDeathThatIDeservioli.ogg"
+            ]
+        },
+		{
+            "comment": "The music that plays when the early leave alert is called",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "Weather",
+                    "weather": "None"
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ItsPizzaTime.ogg"
+            ]
+        },
+		{
+            "comment": "The music that plays during light weather when the early leave alert is called after 8PM",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "TimeOfDay",
+                    "comparisonType": "GreaterThanOrEquals",
+                    "time": 0.75
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "INeedANoise.ogg"
+            ]
+        },
+		{
+            "comment": "The music that plays during light weather when the early leave alert is called after 4PM",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "TimeOfDay",
+                    "comparisonType": "GreaterThanOrEquals",
+                    "time": 0.5
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "WorldWideNoise.ogg"
+            ]
+        },
+		{
+            "comment": "The music that plays during light weather when the early leave alert is called",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "DistastefulAnchovi.ogg"
+            ]
+        },
+        {
+            "comment": "Stops the escape music when the ship takes off",
+            "scriptEventType": "StopMusic",
+            "gameEventType": "ShipTakeOff",
+            "conditions": [],
+            "targetTags": [
+                "EscapeMusic"
+            ]
+        },
+        {
+            "comment": "Plays when you die after the ship leave alert is called",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "PlayerDied",
+            "conditions": [
+                {
+                    "conditionType": "ShipLeavingAlertCalled"
+                }
+            ],
+            "overlapHandling": "overlap",
+            "musicNames": [
+                "YourFatAssSlowsYouDown.ogg"
+            ]
+        },
+        {
+            "comment": "Stops the music if you die",
+            "scriptEventType": "StopMusic",
+            "gameEventType": "PlayerDied",
+            "targetTags": [
+                "EscapeMusic"
+            ],
+            "instant": true
+        }
+    ]
+}

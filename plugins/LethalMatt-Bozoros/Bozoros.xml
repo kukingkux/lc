@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bozoros</name>
+    </assembly>
+    <members>
+        <member name="T:Bozoros.Behaviours.ChangeSettings">
+            <summary>
+                MonoBehaviour script for applying some config settings.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Behaviours.ChangeSettings.SeenBalloonInstructions">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.fireworkMusicVolume">
+            <summary>
+                List of AudioSources to adjust volumes for.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.fireworkExplosionVolume">
+            <summary>
+                List of AudioSources to adjust volumes for.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.announcerVolume">
+            <summary>
+                List of AudioSources to adjust volumes for.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.tentMusicVolume">
+            <summary>
+                List of AudioSources to adjust volumes for.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.dropshipVolume">
+            <summary>
+                List of AudioSources to adjust volumes for.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.fireworkParticles">
+            <summary>
+                List of ParticleSystems to adjust particle amounts for.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.confettiParticles">
+            <summary>
+                List of ParticleSystems to adjust particle amounts for.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.balloonParticles">
+            <summary>
+                List of ParticleSystems to adjust particle amounts for.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.fireworkMusicCopyrighted">
+            <summary>
+                AudioClip of 'IN YOUR HEART' by Worthikids, which is NOT streamer friendly.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.balloonStands">
+            <summary>
+                List of all balloon stands on the map.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.ferrisWheelExit">
+            <summary>
+                The fire exit inside the Ferris Wheel.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.shipScanNode">
+            <summary>
+                The ship's scan node.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.dropship">
+            <summary>
+                The item dropship itself.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.dropshipScanNode">
+            <summary>
+                The scan node to add to the dropship.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.pufferSpawner">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.barberSpawner">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ChangeSettings.voidheadSpawner">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Behaviours.ChangeSettings.OnNetworkSpawn">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Behaviours.ChangeSettings.DisableFerrisFireExitRpc">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Behaviours.ChangeSettings.ApplyVolume(System.Single,UnityEngine.AudioSource[])">
+            <summary>
+                Apply volume amount to a given list of AudioSources.
+            </summary>
+            <param name="value">The volume level to set.</param>
+            <param name="audioSources">A list of AudioSources to modify.</param>
+        </member>
+        <member name="M:Bozoros.Behaviours.ChangeSettings.ApplyParticleIntensity(System.Single,UnityEngine.ParticleSystem[],System.Boolean)">
+            <summary>
+                Apply particle intensity to a given list of ParticleSystem instances.
+            </summary>
+            <param name="multiplier">The multiplier to apply to the given ParticleSystem.</param>
+            <param name="particleSystems">The list of ParticleSystems to modify.</param>
+            <param name="firework">Whether or not the particles belong to fireworks (have one or more child ParticleSystem instances).</param>
+        </member>
+        <member name="M:Bozoros.Behaviours.ChangeSettings.ToggleBalloonInstructions">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Behaviours.PlatformGravity">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.PlatformGravity.applyReducedMotion">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Behaviours.PlatformGravity.IsPhysicsRegionActive">
+            <summary>
+                TODO.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Bozoros.Behaviours.PlatformGravity.CancelPlayerMomentum(GameNetcodeStuff.PlayerControllerB)">
+            <summary>
+                TODO.
+            </summary>
+            <param name="player"></param>
+        </member>
+        <member name="T:Bozoros.Behaviours.PoisonLake">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.PoisonLake.waterTrigger">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Behaviours.ReduceMotionSickness">
+            <summary>
+            	TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ReduceMotionSickness.onReduceMotionSicknessEnabled">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.ReduceMotionSickness.onReduceMotionSicknessDisabled">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Behaviours.ReduceMotionSickness.OnEnable">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Behaviours.ReduceMotionSickness.OnDisable">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Behaviours.ReduceMotionSickness.OnReduceMotionSicknessChange(System.Object,System.EventArgs)">
+            <summary>
+                TODO.
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:Bozoros.Behaviours.SnozorosEnabler">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.SnozorosEnabler.fakeWaterMaterial">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.SnozorosEnabler.waterTrigger">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.SnozorosEnabler.waterRenderer">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Behaviours.SnozorosEnabler.snowMaterial">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Behaviours.SnozorosEnabler.HandleSnow(System.Boolean)">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Compatibility.EmergencyDiceCompatibility">
+            <summary>
+                Compatibility for Emergency Dice.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Compatibility.EmergencyDiceCompatibility.Enabled">
+            <summary>
+                Whether Emergency Dice is present in the BepInEx Chainloader or not.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Compatibility.EnemySkinRegistryCompatibility.Enabled">
+            <summary>
+                Whether EnemySkinRegistry is present in the BepInEx Chainloader or not.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Compatibility.LethalElementsCompatibility">
+            <summary>
+                Compatibility for v0xx's LethalElements.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Compatibility.LethalElementsCompatibility.Enabled">
+            <summary>
+                Whether LethalElements is present in the BepInEx Chainloader or not.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Compatibility.Moons.StarlancerZeroCompatibility.RegisterCompat">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Compatibility.WesleyCompatibility.Enabled">
+            <summary>
+                Whether JLL's Wesley module is present in the BepInEx Chainloader or not.
+            </summary>
+        </member>
+        <member name="T:Bozoros.BananaPeelDropLevel">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.BananaPeelDropLevel.AllItems">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.BananaPeelDropLevel.HeldItem">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.BananaPeelDropLevel.NoItems">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Config">
+            <summary>
+                Class containing and defining plugin configuration options for Bozoros.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.STREAMER_FRIENDLY">
+            <summary>
+                Whether the music is streamer-friendly or not.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.FIREWORK_PARTICLES">
+            <summary>
+                Intensity of firework particles at the end of a clear day.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.CONFETTI_PARTICLES">
+            <summary>
+                Intensity of confetti particles during eclipsed weather.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.BALLOON_PARTICLES">
+            <summary>
+                Intensity of balloon particles during stormy weather.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.FIREWORK_MUSIC_VOLUME">
+            <summary>
+                Volume level for the firework music at the end of a clear day.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.FIREWORK_EXPLOSION_VOLUME">
+            <summary>
+                Volume level for the firework explosion sound effects at the end of a clear day.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.ANNOUNCER_VOLUME">
+            <summary>
+                Volume level for the announcer voice at the end of each day.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.TENT_MUSIC_VOLUME">
+            <summary>
+                Volume level for the circus tent music near every entrance.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.DROPSHIP_VOLUME">
+            <summary>
+                Volume level for the dropship's music when delivering items.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.GOOFY_PUFFER_NAMES">
+            <summary>
+                A comma-separated list of names for Spore Lizard enemy variants to show in their scan node.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.CLOWN_GIANT_NAMES">
+            <summary>
+                A comma-separated list of names for Forest Giant enemy variants to show in their scan node.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.SANTA_BUTLER_NAMES">
+            <summary>
+                A comma-separated list of names for Santa Butler enemy variants to show in their scan node.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.EXTRA_PUFFER_SPAWNS">
+            <summary>
+                Whether there should be additional Goofy Puffer spawns at the start of a round or not. Spore Lizards are capped at a maximum of 2 in vanilla.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.FOGGY_BARBER_SPAWNS">
+            <summary>
+                Whether there should be additional outside Barber spawns during Foggy weather or not.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.BALLOON_INSTRUCTIONS">
+            <summary>
+                Show a one-time notification with instructions on how to operate balloons. Shows once per session, until the game is reopened.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.BALLOON_PRICE">
+            <summary>
+                Credits required to purchase a one-time balloon shortcut from one of the balloon stands around the map.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.FERRIS_WHEEL_EXIT">
+            <summary>
+                Whether the Fire Exit inside the Ferris Wheel should spawn or not — wormholes may not be immersive!
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.BANANA_MULTIPLIER_INSIDE">
+            <summary>
+                Multiply inside banana peel hazard spawning curve across the board (minimum and maximum) by this value. Set to 0 to disable banana peels inside.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.BANANA_MULTIPLIER_OUTSIDE">
+            <summary>
+                Multiply outside banana peel hazard spawning curve across the board (minimum and maximum) by this value. Set to 0 to disable banana peels outside.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.BANANA_DROPS_ITEMS">
+            <summary>
+                Whether slipping on a banana peel causes all items to be dropped or not.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.MODIFY_SHIP_NODE">
+            <summary>
+                Increase (subjective) accuracy of the ship's scan node.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.ADD_DROPSHIP_NODE">
+            <summary>
+                Add a scan node to the dropship and allow it to be scanned.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.REDUCE_MOTION_SICKNESS">
+            <summary>
+                Attempts to reduce motion sickness a bit. Currently only stops the camera turning when going through the twisted hallway.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.CIRCUS_FACILITY_MIMICS">
+            <summary>
+                Allow x753's Mimics to spawn in Circus Facility.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.CIRCUS_PANDORAMUS_PORTAL">
+            <summary>
+                Enable Circus Facility's special portal for DemonMae's Pandoramus; otherwise it'll just be the same as regular facility.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.CIRCUS_STARLANCERZERO_DOOR">
+            <summary>
+                Enable Circus Facility swapping StarlancerZero's main entrance door.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.BOZO_DICE_EFFECTS">
+            <summary>
+                Enable Bozoros' custom effects for Emergency Dice.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.WESLEY_INTEGRATION">
+            <summary>
+                Enable progression integration with Wesley's Moons.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.WESLEY_INJECT_SCRAPS">
+            <summary>
+                Add a few Wesley-related scraps to Bozoros' spawn pool, if Wesley integration is active.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Config.BLACK_FOG_VOIDHEAD_SPAWNS">
+            <summary>
+                Whether temporary Voidheads should spawn during Black Fog weather or not. Requires both Wesley's Interiors and DemonMae's Black Fog weather.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Config.#ctor(BepInEx.Configuration.ConfigFile)">
+            <summary>
+                Constructor for initializing plugin configuration.
+            </summary>
+            <param name="cfg">BepInEx configuration file.</param>
+        </member>
+        <member name="T:Bozoros.Effects.BananaPeelDiceEffect">
+            <summary>
+                Banana peel effect for Emergency Dice.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Effects.BonkDeliveryDiceEffect">
+            <summary>
+                Bonk Delivery effect for Emergency Dice.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Effects.CircusInTownDiceEffect">
+            <summary>
+                 Circus in town effect for Emergency Dice.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Effects.FishTouchDiceEffect">
+            <summary>
+                Fish orbit effect for Emergency Dice.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Effects.NetworkedDiceEffect">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Effects.NetworkedDiceEffect.Outcome">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Effects.NetworkedDiceEffect.ShowDefaultTooltip">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Effects.NetworkedDiceEffect.Name">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Effects.NetworkedDiceEffect.Tooltip">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Effects.NetworkedDiceEffect.Use">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="M:Bozoros.Effects.NetworkedDiceEffect.OnNetworkSpawn">
+            <summary>
+                Register dice effects every time this component is spawned.
+            </summary>
+            <remarks>This might be a bit cursed...</remarks>
+        </member>
+        <member name="M:Bozoros.Effects.NetworkedDiceEffect.OnNetworkDespawn">
+            <summary>
+                De-register dice effects upon being despawned.
+            </summary>
+            <remarks>This might be a bit cursed...</remarks>
+        </member>
+        <member name="T:Bozoros.Effects.PufferInfestationDiceEffect">
+            <summary>
+                Puffer infestation effect for Emergency Dice.
+            </summary>
+        </member>
+        <member name="T:Bozoros.Effects.SantaVisitDiceEffect">
+            <summary>
+                Santa Claus effect for Emergency Dice.
+            </summary>
+        </member>
+        <member name="E:Bozoros.Patches.LoadPatch.OnFinishGeneratingLevelPost">
+            <summary>
+                Event invoked after the moon finishes loading.
+            </summary>
+        </member>
+        <member name="E:Bozoros.Patches.LoadPatch.OnFinishGeneratingNewLevelClientRpcPost">
+            <summary>
+                Event invoked after the dungeon finishes generating.
+            </summary>
+            <remarks><b>NOTE:</b> Runs twice for the host; use 'StartOfRound.StartNewRoundEvent' preferably, if possible.</remarks>
+        </member>
+        <member name="T:Bozoros.Plugin">
+            <summary>
+                Plugin for LethalMatt's Bozoros, adds configuration and some additional stuff.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Plugin.PLUGIN_GUID">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Plugin.PLUGIN_NAME">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="F:Bozoros.Plugin.VERSION">
+            <summary>
+                TODO.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Plugin.Harmony">
+            <summary>
+                Harmony instance for patching.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Plugin.Settings">
+            <summary>
+                Plugin configuration instance.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Skins.ClownGiant.ClownGiantNames">
+            <summary>
+                List of names that can be randomly assigned to Clown Giants.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Skins.ClownGiant.Random">
+            <summary>
+                Seeded Random instance intialized with the current map seed.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Skins.GoofyPuffer.GoofyPufferNames">
+            <summary>
+                List of names that can be randomly assigned to Goofy Puffers.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Skins.GoofyPuffer.Random">
+            <summary>
+                Seeded Random instance intialized with the current map seed.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Skins.SantaButler.SantaButlerNames">
+            <summary>
+                List of names that can be randomly assigned to Santa Butlers.
+            </summary>
+        </member>
+        <member name="P:Bozoros.Skins.SantaButler.Random">
+            <summary>
+                Seeded Random instance intialized with the current map seed.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,174 @@
+{
+    "comment": "An addon script that plays music when you take the Apparatus. Includes extra music inspired by RBLX. This script is designed to be used with the Default script. Bundled with PizzaProbability",
+    "isAddon": true,
+    "volumeGroups": [
+        {
+            "tag": "EscapeMusic",
+            "volumeLerpSpeed": 2,
+            "stoppingVolumeLerpSpeed": 0.25,
+            "volumeRules": [
+                {
+                    "comment": "Spectator volume",
+                    "volume": 0.5,
+                    "condition": {
+                        "conditionType": "Not",
+                        "condition": {
+                            "conditionType": "PlayerAlive"
+                        }
+                    }
+                },
+                {
+                    "comment": "Inside facility volume",
+                    "volume": 1,
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Facility"
+                    }
+                },
+                {
+                    "comment": "Inside ship volume",
+                    "volume": 0.4,
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Ship"
+                    }
+                },
+                {
+                    "comment": "Default volume",
+                    "volume": 0.7
+                }
+            ],
+            "volumeModifiers": [
+                {
+                    "comment": "Crouching volume scale",
+                    "volumeScale": 0.5,
+                    "condition": {
+                        "conditionType": "PlayerCrouching"
+                    }
+                }
+            ]
+        }
+    ],
+    "scriptEvents": [
+        {
+            "comment": "Stops the music if you take the Apparatus",
+            "scriptEventType": "StopMusic",
+            "gameEventType": "ApparatusTaken",
+            "targetTags": [
+                "EscapeMusic"
+            ],
+            "instant": true
+        },
+		{
+            "comment": "The music that plays when you take the Apparatus before 12PM",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ApparatusTaken",
+            "conditions": [
+                {
+                    "conditionType": "TimeOfDay",
+                    "comparisonType": "LessThan",
+                    "time": 0.25
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "TsunamiMeltdown.ogg"
+            ]
+        },
+        {
+            "comment": "The music that plays during heavy weather when you take the Apparatus",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ApparatusTaken",
+            "conditions": [
+                {
+                    "conditionType": "Or",
+                    "conditions": [
+                        {
+                            "conditionType": "Weather",
+                            "weather": "Eclipsed"
+                        },
+                        {
+                            "conditionType": "Weather",
+                            "weather": "Stormy"
+                        }
+                    ]
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ThousandMarchMeltdown.ogg"
+            ]
+        },
+        {
+            "comment": "The music that plays during a flood when you take the Apparatus",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ApparatusTaken",
+            "conditions": [
+                {
+                    "conditionType": "Weather",
+                    "weather": "Flooded"
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "TheOpenedWayMeltdown.ogg"
+            ]
+        },
+        {
+            "comment": "The music that plays when you're inside the facility and you take the Apparatus",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ApparatusTaken",
+            "conditions": [
+                {
+                    "conditionType": "PlayerLocation",
+                    "location": "Facility"
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ByeByeThereMeltdown.ogg"
+            ]
+        },
+        {
+            "comment": "The music that plays when you take the Apparatus",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ApparatusTaken",
+            "conditions": [],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ItsPizzaTimeMeltdown.ogg",
+                "TheDeathThatIDeservioliMeltdown.ogg"
+            ]
+        },
+        {
+            "comment": "Plays when you die after the Apparatus is taken",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "PlayerDied",
+            "conditions": [
+			    {
+                    "conditionType": "Not",
+                    "condition": {
+					    "conditionType": "Or",
+                        "conditions": [
+                            {
+                                "conditionType": "ApparatusDocked"
+                            },
+                            {
+                                "conditionType": "ShipLeavingAlertCalled"
+                            }
+                        ]
+					}
+                }
+            ],
+            "overlapHandling": "overlap",
+            "musicNames": [
+                "YourFatAssSlowsYouDown.ogg"
+            ]
+        }
+    ]
+}

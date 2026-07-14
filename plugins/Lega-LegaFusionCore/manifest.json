@@ -1,0 +1,11 @@
+{
+    "name": "LegaFusionCore",
+    "version_number": "1.1.2",
+    "website_url": "https://github.com/LegaSource/LegaFusionCore",
+    "description": "Common library with shared code for my mods",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305",
+        "Evaisa-HookGenPatcher-0.0.5",
+		"Evaisa-LethalLib-1.2.0"
+    ]
+}

@@ -1,0 +1,81 @@
+# PlayZone
+
+A custom interior for Company employees to bring their families to. Created by LethalMatt and pacoito.
+
+PlayZone is an expansive indoor amusement center featuring activities like playgrounds, cosmic bowling, laser tag, a trampoline park, and more!
+
+All models and textures were created from scratch, with a few exceptions. See more of my work on my [ArtStation](https://www.artstation.com/mattryszkowskiart). If you would like to support my work or want to encourage future projects, you can donate to my [Ko-Fi](https://ko-fi.com/its3dmatt) account. Any gratuity is very highly appreciated!
+
+## Details
+
+> PlayZone was a childcare service created by The Company for employees to take their families to in times of leisure, or to drop off their children during their shift. However, PlayZone's last day of operation was in October 16th, 2004. Maybe you can piece together what happened on its last day...
+
+**FEATURES:**
+
+* **6** main 'zones' to search and play around in.
+* **4** story log terminal entries to find.
+* **14** themed scrap items to collect.
+* Various custom hazards and player obstacles.
+* Functional trampolines, slides, and ball pits.
+* A few themed cosmetics for [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/).
+* Loads of other custom scripted stuff!
+
+<br>
+<img alt="View of the main entrance, showing PlayZone's logo projected onto the ceiling wall." src="https://imgur.com/YIAzokF.png" width=720>
+<img alt="A loot bug exiting the main entrance ball pit in front of the elevator, splashing balls everywhere." src="https://imgur.com/W8VeJ2R.png" width=720>
+<img alt="View of the top of the slide in one of the maze tiles, with a punching bag next to it." src="https://imgur.com/TSfTby5.png" width=720>
+<img alt="View of a maze hallway, showing obstacle triangles on the floor and two punching bags up next, with some side paths illuminated." src="https://imgur.com/0SD35bE.png" width=720>
+<img alt="View of the purple team entrance tunnel into the LaserZone, showing its arcade carpet flooring, with the rules of play hanging on the wall." src="https://imgur.com/GmhidH1.png" width=720>
+
+**<details><summary>MORE IMAGES (spoiler):</summary>**
+<img alt="View of the JumpZone looking down from the ceiling, showcasing all trampolines." src="https://imgur.com/I27TsdA.png" width=720>
+<img alt="View of the PartyZone with all decorations visible." src="https://imgur.com/l44KV9j.png" width=720>
+<img alt="View of the CosmicZone's bowling lanes and disco balls." src="https://imgur.com/z3dCxOz.png" width=720>
+<img alt="View of the TykeZone and all its props." src="https://imgur.com/lKIN2YN.png" width=720>
+<img alt="View of the SportZone, with a lone basketball in the center of the field." src="https://imgur.com/kVeIBzE.png" width=720>
+<img alt="View of the LaserZone, showing the decorative Old Bird in the distance, along with all the neon-colored lights everywhere." src="https://imgur.com/OgxuJ7q.png" width=720>
+</details>
+
+## Configuration
+
+A few music tracks are featured in the interior, and while an effort was made to select ones that'd be streamer-friendly (old video game music), their individual volume can be lowered or muted through their respective config settings, in case copyright remains a concern. Likewise, volume for a couple other sound effects be adjusted as well, if you feel they are a bit too loud or distracting.
+
+PlayZone's custom items are injected with their default weights into the scrap spawning pool of whichever moon it generates in, without overwriting values set manually for specific moons. This can be disabled by toggling the `InjectScrap` setting, to allow other mods to fully control their spawning.
+
+By default, PlayZone adds itself to [CullFactory](https://thunderstore.io/c/lethal-company/p/fumiko/CullFactory)'s interior blacklist; distant paths are intended to be visible from far away, so that the player can appreciate the sheer scale of the maze ahead. This behavior can be disabled by toggling the `CullFactoryBlacklist` setting, to allow CullFactory's own configuration to handle PlayZone's blacklisting, or to enable culling for the interior.
+
+## Installation
+
+The interior and all its dependencies should automatically install when using your mod manager of choice ([Thunderstore](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager), [r2modman](https://github.com/ebkr/r2modmanPlus), [Gale](https://github.com/Kesomannen/gale)).
+
+For manual installation, install BepInEx normally and drag and drop all `.lethalbundles` and `.dll` files directly into a folder under `BepInEx/plugins`. This must also be done for dependencies.
+
+Make sure you have all the required dependencies installed before launching the game!
+
+## Credits & Thank You
+
+**My fiancée for illustrating some of the texture patterns found throughout PlayZone and for always being there for me.**
+
+**Special thanks to the folks in the Lethal Company Modding Discord.**
+
+**[pacoito](https://github.com/pacoito123) for creating [itolib](https://thunderstore.io/c/lethal-company/p/pacoito/itolib) and many of the features for PlayZone!**
+
+**[MayaModez](https://mayamodez.straw.page) for the incredibly charming poster art!**
+
+**[IAmBatby](https://github.com/IAmBatby/LethalLevelLoader) for [LethalLevelLoader](https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalLevelLoader), which allows this whole thing to exist at all.**
+
+### Music & SFX
+
+[Museum](https://www.youtube.com/watch?v=8VicFeqXwF8) from `Namco Museum Volume 5 (1997)` by Namco
+
+[Disco Star](https://youtu.be/cWwE6m-o4xQ?si=lDFcHzwZreklkVNt) from `The SpongeBob SquarePants Movie: The Video Game (2004)` by THQ
+
+Various sound effects made by Sound Ideas:
+
+* `ANMLFarm_Animal Cow_S6k03-48-1` from the [General Series 6000 Sound Effects Library](https://soundideas.sourceaudio.com/track/7620230)
+* `SPRTIndor_Crash Cartoon_WB04-34-1` from the [Warner Bros. Sound Effects Library](https://www.sound-ideas.com/Product/411/warner-bros-sound-effects-library)
+* `Eating 1016_12` from the [Series 1000 Sound Effects Library](https://download.audiohero.com/track/14482168)
+* `TOONImpt_Hit Cartoon_HB01-52-3` and `TOONImpt_Hit Cartoon_HB01-52-4` from the [Hanna-Barbera Sound Effects Library](https://www.sound-ideas.com/Product/409/hanna-barbera-sound-effects-library)
+* `TOONBoing_Boing Cartoon_HB01-14-14` and `TOONBoing_Boing Cartoon_HB01-14-15` from the [Hanna-Barbera Sound Effects Library](https://www.sound-ideas.com/Product/409/hanna-barbera-sound-effects-library)
+
+Various sounds from the [Ball Pit SFX Library](https://www.101soundboards.com/boards/731045-ball-pit-sfx-library) by [Bardman](https://www.101soundboards.com/users/gddnjwy-bardman)

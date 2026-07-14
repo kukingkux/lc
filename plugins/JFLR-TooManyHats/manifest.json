@@ -1,0 +1,9 @@
+{
+    "name": "TooManyHats",
+    "version_number": "1.1.1",
+    "description": "an assortment of 50+ cosmetics for MoreCompany cobbled together from Creative Commons 3D assets",
+    "website_url": "",
+    "dependencies": [
+        "notnotnotswipez-MoreCompany-1.7.4"
+    ]
+}

@@ -1,0 +1,72 @@
+#ImprovedLethalThings
+
+This mod is an add-on for the LethalThings mod that improves and adds extra configuration to several store items to make them more viable when using them alone or with friends.
+
+This mod is an improved and updated fork of the EnhancedLethalThings mod by somug.
+
+## General Changes
+- **v73 Update:** The mod is fully compatible with Lethal Company v73.
+- **Log Removal:** Some unnecessary logs have been removed from the console, improving optimization.
+- **Code Cleanup:** The original code of EnhancedLethalThings has been changed and improved, with further optimization improvements expected.
+
+## Hacking Tool:
+This has been the first tool rework that made me want to use EnhancedLethalThings in the first place; I found the original too difficult and complex to be used effectively, which is why we decided to expand this improved version.
+
+- **Enhanced Hack Game:** The hacking minigame has been improved; it will now display a number of digits to enter instead of requiring mathematical answers.
+
+![Hacking Tool on Door.](https://i.ibb.co/H6XHvV4/Captura-de-pantalla-2025-11-05-111022.png "This is a sample image.")
+
+- **HackMode:** New way to change the hacking mode, switching modes with the "E" key (Changeable with InputUtils): 
+- **Doors:** Hacks a single object; it will only target doors. 
+
+  ![Hacking Tool on Door.](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWVxYjN2dnd6Mmw0djhucDlhbDJ0b3RiZTdnaTkwNXNta3J2NnEzbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qg78t1AKUzu3ygP1Or/giphy.gif "This is a sample image.") 
+
+- **Traps:** Hacks a set of traps (configurable range); it will target the nearest trap and the amount of all nearby traps. It will hack all traps at once! 
+  - **Landmines:** Mines will be detonated upon hacking. (It will kill you if you're too close) 
+  - **Turrets:** Turrets will be deactivated for a (configurable) period of time. 
+  - **Spike Traps (NEW):** Spike traps will be deactivated for a (configurable) period of time. 
+
+  ![Hacking Tool on Landmine.](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzAwcTRzaWQzMjJ2OHJiZ2k3OWd1Y3V1eW92ZTliMWZrMHpnbHYyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q84gFMQBd8b7TvPmoN/giphy.gif "This is a sample image.")
+
+This rework has multiple customizable settings such as:
+- **Enable enhanced hack game:** Enables or disables the enhanced hack game.
+- **Connection time:** Number of seconds to connect to the trap or door.
+- **Battery:** Battery life of the tool.
+- **Answer number:** Number of digits to add to hack the trap or door.
+- **Hack Distance:** Distance required to hack a trap or door.
+- **Hack Spread Distance:** Distance required for the hack to affect other traps. (in Traps mode)
+- **Turret Disable Time:** Number of seconds the turret will be disabled when hacked.
+- **Spike Disable Time:** Number of seconds the spike trap will be disabled when hacked.
+
+## Pinger
+Second item to receive a significant improvement through various configurations.
+- **Ping through walls:** The ping can now be seen through walls, allowing you to mark important objects or exits for a predefined time (in the settings). (WARNING: This rework is not currently compatible with the GoodItemScan mod.)
+
+  ![Pinger.](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWZydXZ2amxxd2xsazd1ZjFrZTA4YTZubm5yNGp0bG5jeWk4cndxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o8lHzXG1FmS5sewwvA/giphy.gif "This is a sample image.")
+
+Among the settings we have:
+- **Max uses:** Number of times the Pinger can be used before the battery runs out.
+- **Ping duration:** The number of seconds the Pinger's ping will be active and visible to all players.
+- **Ping range:** The distance the Pinger can ping something.
+
+## **Rocket Launcher:** It's time to make this tool a real weapon, and to stop it from being completely useless after running out of ammo, we've decided to add something special.
+- **Missile:** New Store Item. Pressing E (default reload button) will consume the item and increase the number of available ammo. (The rocket launcher can only hold up to 4 rounds.)
+
+  ![Rocket Reload.](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzBldWN3Nm42aDI2cnIwMDZodDhncHVudHdpbW9leWVuMnZ2bWVycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oeqgORJQcVuSyeGVAe/giphy.gif "This is a sample image.")
+
+In addition, we've made a change to how bullets are fired.
+- **Enemy collision:** Rockets fired from the rocket launcher will now detect enemy collisions. Previously, they would pass through enemies and deal damage upon impact with the ground.
+
+  ![Rocket damage.](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVpa3lzNThxcTViczdicjlzYTAxNTVlcGpwNngydTZqMTFhbHczNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g2TRhmpE06z3gWcTSg/giphy.gif "This is a sample image.")
+  
+## Remote Radar:
+One of the few items I consider almost perfect as is, which is why we only added one setting:
+- **Battery:** Tool battery life.
+
+## Pouchy Belt (Utility Bag):
+The only item I consider perfect as is; however, the EnhancedLethalThings mod added something that, in my opinion, made it too powerful, so we made a single change.
+- Removed the Pouchy Belt patch that allowed holding multiple two-handed items due to bugs and personal preferences.
+
+## Credits
+- **Moroxide:** Main planner, main tester, Missile model maker, Rocket Reload sound maker.
+- **Mr.Hat:** Main coder; practically made this possible.

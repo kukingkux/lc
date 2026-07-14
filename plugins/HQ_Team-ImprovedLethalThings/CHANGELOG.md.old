@@ -1,0 +1,19 @@
+- 1.0.4
+	- Fixed folder structure, thanks Lunxara
+
+- 1.0.3
+  - Massively improved the game performance when using the hacking tool.
+  - Re-registered missile through unity editor rather than via code, which also comes with scrap/shop config as well.
+
+- 1.0.2
+  - Improved the game performance when using the hacking tool.
+  - Fixed some Rpc ownership issues.
+  - Updated team name on thunderstore.
+
+- 1.0.1
+  - Fixed incompatibility issue in multiplayer with generalimprovements.
+  - Added shadows to lighting of flaregun projectile.
+  - Updated readme.
+
+- 1.0.0  
+  - Initial Release.

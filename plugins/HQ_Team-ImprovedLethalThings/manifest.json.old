@@ -1,0 +1,11 @@
+{
+    "name": "ImprovedLethalThings",
+    "version_number": "1.0.4",
+    "description": "Improvements to several store items from LethalThings by Evasia (v73)",
+    "website_url": "",
+    "dependencies": [
+        "Evaisa-LethalThings-0.10.13",
+		"TeamXiaolan-DawnLib-0.5.16",
+		"Rune580-LethalCompany_InputUtils-0.7.12"
+    ]
+}

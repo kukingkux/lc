@@ -1,0 +1,25 @@
+{
+    "replacements": [
+        {
+            "matches": "MenuManager:Menu1",
+            "sounds": [
+                {
+                    "sound": "BetterMenuV4.ogg",
+					"condition": {
+					"type": "config",
+					"config": "Settings:MenuNew",
+					"value": true
+					}
+                },
+				{
+                    "sound": "BetterMenu.ogg",
+					"condition": {
+					"type": "config",
+					"config": "Settings:MenuNew",
+					"value": false
+					}
+                }
+            ]
+        }
+    ]
+}

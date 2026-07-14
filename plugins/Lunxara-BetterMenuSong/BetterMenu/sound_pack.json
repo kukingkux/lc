@@ -1,0 +1,9 @@
+{
+    "name": "BetterMenu",
+    "config": {
+        "Settings:MenuNew": {
+            "description": "Use the updated theme that merges in ShatteredTheme? (true=new false=old)",
+            "default": true
+        }
+    }
+}

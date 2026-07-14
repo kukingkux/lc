@@ -1,0 +1,12 @@
+{
+    "name": "TheDoctor",
+    "version_number": "1.0.6",
+    "website_url": "https://github.com/LegaSource/TheDoctor",
+    "description": "Adds a new \"mini-boss\" enemy, very rare to find. Avoid getting spotted and find The Doctor.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Evaisa-HookGenPatcher-0.0.5",
+		"Evaisa-LethalLib-1.2.0",
+		"Lega-LegaFusionCore-1.1.0"
+    ]
+}
