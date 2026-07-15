@@ -1,0 +1,14 @@
+{
+    "name": "Wither",
+    "version_number": "2.0.3",
+    "website_url": "https://github.com/Science-Bird/Wither",
+    "description": "A unique yet familiar lategame moon.",
+    "dependencies": [
+	"IAmBatby-LethalLevelLoader-1.6.9",
+	"Evaisa-FixPluginTypesSerialization-1.1.4",
+	"MaxWasUnavailable-LethalModDataLib-1.2.2",
+    "JacobG5-JLL-1.10.0",
+    "Hardy-LCMaxSoundsFix-1.2.0",
+	"BepInEx-BepInExPack-5.4.2305"
+    ]
+}

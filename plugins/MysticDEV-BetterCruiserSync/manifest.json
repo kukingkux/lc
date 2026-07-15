@@ -1,0 +1,9 @@
+{
+    "name": "BetterCruiserSync",
+    "version_number": "1.0.5",
+    "website_url": "https://github.com/mystic-HQ/BetterCruiserSync",
+    "description": "A small QOL/Bug fix Lethal Company mod that ensures the cruiser syncs properly for clients, even if the host does not have the mod.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100" 
+    ]
+}

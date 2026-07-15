@@ -1,0 +1,9 @@
+{
+  "name": "AlwaysInBounds",
+  "version_number": "1.2.1",
+  "website_url": "https://github.com/Tomatobird8/AlwaysInBounds",
+  "description": "Teleports player back to the play area when entering an out of bounds trigger.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2304"
+  ]
+}

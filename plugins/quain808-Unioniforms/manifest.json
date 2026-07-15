@@ -1,0 +1,7 @@
+{
+  "name": "Unioniforms",
+  "version_number": "1.0.1",
+  "website_url": "",
+  "description": "Assorted suits made by the SafeCompanyUnion!",
+  "dependencies": ["x753-More_Suits-1.5.2"]
+}

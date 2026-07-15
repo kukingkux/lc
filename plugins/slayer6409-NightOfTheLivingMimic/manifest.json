@@ -1,0 +1,14 @@
+{
+  "name": "NightOfTheLivingMimic",
+  "version_number": "1.2.1",
+  "website_url": "https://github.com/slayer6409/Night-of-The-Living-Mimic",
+  "description": "Dead Bodies and Mimics can now come back to life! Now with (optional) Twitch integration!",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "Evaisa-HookGenPatcher-0.0.5",
+    "Evaisa-LethalLib-1.2.0",
+    "Zehs-TwitchChatAPI-2.0.0",
+    "VirusTLNR-MaskedInvisFix-0.0.3",
+    "Hamunii-TypeLoadExceptionFixer-1.0.4"
+  ]
+}

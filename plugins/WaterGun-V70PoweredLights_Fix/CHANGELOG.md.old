@@ -1,0 +1,14 @@
+# 1.2.1
+- Fixed missing method call on Awake
+
+# 1.2.0
+- Removed refreshlightslist patch bc its broken i have no idea why...
+
+# 1.1.1
+- Fixed for v80
+
+# 1.1.0
+- Fixed animators
+
+# 1.0.0
+Mod released.

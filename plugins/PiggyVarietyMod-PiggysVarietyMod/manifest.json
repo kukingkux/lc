@@ -1,0 +1,12 @@
+{
+    "name": "PiggysVarietyMod",
+    "version_number": "1.2.0",
+    "website_url": "https://github.com/Test-Account666/Test-Account666-LethalCompany-PiggysVarietyMod/",
+    "description": "Add various vanilla style things.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "TestAccount666-TestAccountCore-1.16.0",
+        "TeamXiaolan-DawnLib-0.6.0",
+        "Rune580-LethalCompany_InputUtils-0.7.12"
+    ]
+}

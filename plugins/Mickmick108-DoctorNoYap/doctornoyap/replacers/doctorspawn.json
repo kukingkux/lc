@@ -1,0 +1,79 @@
+{
+	"replacements": [
+		{
+			"matches": "Player:HackedSpeakerAudio:SpeakerHacked",
+			"sounds": [
+				{
+					"sound": "doctorspawn_01.ogg",
+					"weight": 40
+				},
+				{
+					"sound": "doctorspawn_02.ogg",
+					"weight": 40
+				},
+				{
+					"sound": "doctorspawn_03.ogg",
+					"weight": 40
+				},
+				{
+					"sound": "doctorspawn_04.ogg",
+					"weight": 40
+				},
+				{
+					"sound": "doctorspawn_05.ogg",
+					"weight": 40
+				},
+				{
+					"sound": "doctorspawn_06.ogg",
+					"weight": 40
+				},
+				{
+					"sound": "doctorspawn_06b.ogg",
+					"weight": 20
+				}
+			]
+		},
+		{
+			"matches": "Player:HackedSpeakerAudio:SpeakerHacked",
+	        "condition": {
+            "type": "config",
+            "config": "Doctorspeech:hell_variant",
+            "value": true
+	        },
+			"sounds": [
+				{
+					"sound": "doctorspawn_04_evil.ogg",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"matches": "Player:HackedSpeakerAudio:SpeakerHacked",
+	        "condition": {
+            "type": "config",
+            "config": "Doctorspeech:OG_variant",
+            "value": true
+	        },
+			"sounds": [
+				{
+					"sound": "doctorspawn_original.ogg",
+					"weight": 5
+				}
+			]
+		},
+		{
+			"matches": "Player:HackedSpeakerAudio:SpeakerHacked",
+	        "condition": {
+            "type": "config",
+            "config": "Doctorspeech:bell_variant",
+            "value": true
+	        },
+			"sounds": [
+				{
+					"sound": "doctorspawn_belltoll.ogg",
+					"weight": 5
+				}
+			]
+		}
+	]
+}

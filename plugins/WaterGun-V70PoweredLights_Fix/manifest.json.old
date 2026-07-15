@@ -1,0 +1,10 @@
+{
+    "name": "V70PoweredLights_Fix",
+    "version_number": "1.2.1",
+    "author": "WaterGun",
+    "description": "Fixes some zeekerss mistakes",
+	  "website_url": "",
+    "dependencies": [
+      "BepInEx-BepInExPack-5.4.2304"
+    ]
+  }

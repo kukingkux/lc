@@ -1,0 +1,6 @@
+plugins/mrgrm7-LethalCasino/lethalcasinoassets filter=lfs diff=lfs merge=lfs -text
+*.lethalbundle filter=lfs diff=lfs merge=lfs -text
+*.lethalbundle.old filter=lfs diff=lfs merge=lfs -text
+*oxydescene filter=lfs diff=lfs merge=lfs -text
+**/Assets/* filter=lfs diff=lfs merge=lfs -text
+plugins/Magic_Wesley-WesleysInteriors/museuminterior.lethalbundle filter=lfs diff=lfs merge=lfs -text

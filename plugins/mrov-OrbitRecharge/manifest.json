@@ -1,0 +1,12 @@
+{
+  "namespace": "mrov",
+  "name": "OrbitRecharge",
+  "description": "Automatically recharge all items on ship when going into orbit.",
+  "version_number": "0.1.1",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "mrov-MrovLib-0.3.6"
+  ],
+  "website_url": "https://github.com/AndreyMrovol/LethalOrbitRecharge/",
+  "FullName": "mrov-OrbitRecharge"
+}

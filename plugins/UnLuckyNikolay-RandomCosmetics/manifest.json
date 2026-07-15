@@ -1,0 +1,9 @@
+{
+    "name": "RandomCosmetics",
+    "version_number": "1.15.0",
+	"website_url": "",
+    "description": "A pack of cosmetics for me and my friends. Some are cute, some are scary, some are just for the memes. And glizzies, lots of glizzies (for legal reasons I wasn't forced to make them).",
+    "dependencies": [
+        "notnotnotswipez-MoreCompany-1.8.1"
+    ]
+}

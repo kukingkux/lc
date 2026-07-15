@@ -1,0 +1,15 @@
+{
+    "name": "The_Dam",
+    "version_number": "1.2.7",
+    "website_url": "",
+    "description": "An interior based on a hydroelectric dam.",
+    "dependencies": [
+        "IAmBatby-LethalLevelLoader-1.4.11",
+        "BepInEx-BepInExPack-5.4.2100",
+        "fumiko-CullFactory-1.7.0",
+        "Evaisa-FixPluginTypesSerialization-1.1.2",
+        "MaxWasUnavailable-LethalModDataLib-1.2.2",
+        "JacobG5-JLL-1.9.5",
+        "pacoito-itolib-0.2.0"
+    ]
+}

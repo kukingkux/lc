@@ -1,0 +1,847 @@
+<details><summary> v1.0.5</summary>
+<br>
+
+- Forgor to mention the icons were changed thanks to [debit card](https://thunderstore.io/c/lethal-company/p/debit_card_debit) creating better ones
+- `Lantern`, `Kanabo`, `Uchiwa` are back YAY
+
+</detail>
+
+<details><summary> v1.0.4</summary>
+
+- ***Don't stay for too long!***
+- Updated to V73
+- Removed Uchiwa (healing fan), Kanabo and lantern temporarily
+- Changed some texture quality
+- Removed Slauchi temporarily
+- Removed unused assets and configs
+- Added new configs related to this update
+- Fixed `Pop poofer`'s smoke
+- Fixed Marriage box not spawning the rings for clients
+- Kiri is added to the orbit scene
+
+- Known bug: currently marriage contract still won't work properly for clients, sry about that, will be fixed soon
+
+</details>
+
+<details><summary>Older versions</summary>
+<br>
+
+<details><summary> v1.0.3</summary>
+
+- HOTFIX Fixed `Marriage Contract` and `Special Key` spawns
+- Tiny tweaks in the churchs
+
+</details>
+
+<details><summary> v1.0.2</summary>
+
+- HOTFIX (quite literally) Fixed Scorchi missing (something was messed up, totally Wesley's fault, not at all mine)
+
+</details>
+
+<details><summary> v1.0.1</summary>
+
+- Fixed `Pop Puffers`
+- Improved some textures
+- Fixed `Ring Box`
+- Added `Marriage Contract` and `Special Key`
+- Slowed down the animations for the letters
+- Added reverbtriggers for `Church`
+- Jacob fixed `Marriage Altar` getting incorreect player ids in certain conditions
+
+</details>
+
+<details><summary> v1.0.0</summary>
+
+- ***Updated unity project to v70***
+- Just a small note: this whole 1.0.0 changelog is but a small fraction of what I had before, this is only the TL;DR part, removed the yapping section I had before cuz aint no way anyone would read thru that BUT I needed it while working on this update
+- `Pop puffer` was added to some `WesleyMoons`
+  - `Cosmocos` with a rarity of ***14***
+  - `Utril` with a rarity of ***14***
+  - `Cubatres` with a rarity of ***9***
+  - (Just a reminder `Junic` had them already with a rarity of ***12***)
+- `OniMask` changes
+  - `Audio Intervals` ***60-120s -> 80-140s***
+  - `Audio Chance Percent` ***30 -> 25***
+  - Lowered volume by 25%
+- `Oni` changes
+  - `Audio Intervals` ***40-120s -> 80-140s***
+  - `Audio Chance Percent` ***30 -> 25***
+  - Lowered volume by 25%
+- `pikaSleep` can be found on more moons (10 moons -> 34 moons hehe - with rarity of 1, not listing them lol would be too much)
+  - Probably touched up a few parts of all terrains before meshifying but can't remember
+- Adjusted `Ring` rarity ***22 -> 32***
+- Regular `Seichi`
+  - Completely new textures for regular Seichi (had to go with smoother textures because noisy textures bring out rings on the screen (sry if I broke your bubble not seeing em)
+  - Added pavement (handplaced and rotated each rock from 5 variant -> 2810 rocks in total, unified them in blender, this was a pain in the ass)
+  - Meshified with `TerraMesh`
+  - Has two seperate colliders for grass and gravel at the playable zone and a tiny bit further + on Fuji-sama (cuz why not) for performance
+- `Snowichi`
+  - Changed ice texture
+  - Meshified with `TerraMesh`
+  - Has one collider, same logic as regular's
+- `Scorchi`
+  - Added pavement just like regular Seichi but removed the ones that would be above cracks
+  - Changed some settings for lava
+  - Meshified with `TerraMesh`
+  - Has one collider, same logic as regular's
+- `Slauchi`
+  - Removed foilages (Bamboos, Lotuses, Lakelotuses) if its `Snowichi` or `Scorchi`
+  - Changed `Ice` material
+  - Removed `Blood` (bloody water) GameObject and I change the material instead of having multiple GameObjects in the Scene
+  - Made sure that `Snowichi` + `Slauchi` doesn't have bloody water and bloody ice at the same time
+- New Skybox (yet agane hehe)
+- Added two flowers to a secondary randomly spawned pool
+- Changed my AINodes like 50 times since last update
+- Removed `XuMiscTools` as a dependency
+- `Shork`
+  - changed texture to `Blahuce`
+  - now ridable [DO THIS IDIOT]
+- Optimized all audio sample rates
+- Optimized every single model, improved basically all of them both visually and performance-wise, got rid of a bunch of vertecies (~3Million+)
+- Gave almost everything box or capsule collider
+- Touched up previous capsule colliders for trees
+- Changed how trees spawn, they no longer spawn in weird ways where you can see underneath them
+- Fixed UV's for a lot of models
+- Changed textures for a few models
+- Fixed some LODs, gave other stuff LODs which didnt have before
+- Removed shadow casting on models that are not important
+- `Figo` recompiled `LethalCompanySeichiItems` to the newest version of the game (this should fix uchiwa not healing players)
+- Changed lights behaviours (fade distance, mode, etc)
+- Excluded a bunch of layers for colliders that were unnecessary
+- Something happened to `Rodrigo` oh no... oh well, we have `Rodrigo2` now
+- Added `GiantKiwi` (Giant Sapsucker) to the `Daytime Enemies` pool with a `Rarity of 12`
+- Added custom `HandIcon_Sakura` and `HandIconPoint_Sakura`
+- Changed bridge models on the left side
+- Made Quicksnow on Snowichi even darker cuz Xu is gamma-blind :NODDERS:
+- Removed `mailbox` as a hazard, BUT
+- ***YOU'VE GOT A NEW MAIL!!!***
+- `Shamisen` changed from vanilla `Noisemaker` to `JInteractableItem`
+  - Its plucker is only in your hand when you hold it, otherwise its not there
+- Added custom contourmaps to all three terrain versions
+- Changed a bunch of things for `Spookichi` (fog, colors, lightning, gameobject positions etc. etc..)
+- Proper cross fade for LOD Groups!
+
+- `Shisha` is coming back as a seperate mod pretty soon
+  - New animations
+  - New model
+  - Changed its particles to use `mailbox`'s cherry blossom petals
+
+</details>
+
+<details><summary> v0.9.14</summary>
+
+- `Hachiman` defeated another foe`
+- Removed navmesh from some places (performance boost, probably not noticable at this point lmao)
+- Tweaked `CherryBlossoms` particles
+- Lowered the radius of the `InteractTrigger` for `mailbox`
+- Unpacked `Glitch` and placed him in easter egg place
+- Hot-reload compatible (this is the only reason I'm updating .-.)
+- Updated dependancies
+
+</details>
+<details><summary> v0.9.13</summary>
+
+
+
+- Added Idle animation to `Shork`
+- Removed `Shisha` temporarily (don't you worry it'll be back and better than ever!)
+- Added config option to remove the `Mailbox`
+- Removed `Christmas` stuff so they don't get bundled unnecessarily (~7 mb- lol)
+- Revamped Changelog
+
+</details>
+<details><summary> v0.9.12</summary>
+
+- Goodbye `Christmaschi`!
+- Added a ton of support to LethalElements (well the beta version of it rn)
+  - `Blizzard` weather happens on `Snowichi`
+  - `Snowfall` weather however happens on regular `Seichi`
+  - `Heatwave` weather happens on `Scorchi`
+  - Added `SnowRemover`s to lanterns
+- New package arrived
+- `Shork buddy` arrived
+- `Easteregg` place updated
+- `Shisha` bundle will unload as intended if players want to remove them in the config
+- Changed some `Lava` volumes
+  - Continuous Damage ***0.33s -> 1s*** (reason: enemy hitboxes collide with lava way too frequently)
+  - Removed some overlooked checkmarks
+- Removed KnifeStab sfxs from `Katana` (reason: they still played randomly throught playsessions, even tho we fixed this already with Jacob (?))
+- Adjusted custom fog ***3.7 -> 6*** (its less dense)
+
+</details>
+<details><summary> v0.9.11 </summary>
+
+- Optimized even more
+  - MASSIVE filesize decreased
+  - Touched up the temples
+  - Touched up the two bridges leading to the middleisland
+- Skybox changes
+  - Changed a bunch of things here, probably unnoticable mostly (clouds, tint, fog, skybox's cubemap etc.)
+- New sun texture
+- Fixed an unnoticed issue with the `Katana`
+- Foilage is set to `Bush` tag
+- Added a chirstmas tree :3
+- Added Hachiman's friend `s1ckachu`
+- Removed `WLOGs`
+- Reworked the regular daily and evening musics (huge thanks to Spinmaster!)
+- `Rodriguez` fixed the `Old Seamine`
+- Christmas lights vibin'
+- ***Merry Christmas***
+- Bandage on an error for `Kanabo`
+- Updated dependencies
+
+</details>
+<details><summary> v0.9.10 </summary>
+
+- ***YOU'VE GOT MAIL!!!*** <- GO AND GET IT!
+- Only 1 `mailbox` can spawn instead of a max of 4
+- Fixed an audio issue with `mailbox`
+- Added `mailboxParticles`
+- Added some NavMeshModifiers to add AND remove navmesh on the ice (it built navmesh under ground since I had ice there oops. >.<)
+
+</details>
+<details><summary> v0.9.9 </summary>
+
+- `OniMask` "Wake Up" SFXs changes:
+  - `Audio Min-Max Intervals` ***5-130 -> 60-120***
+  - `Audio Chance Percent` ***20 -> 30***
+- `OniPlayerEnemy` "Wake Up" SFXs changes:
+  - `Audio Min-Max Intervals` ***6-16 -> 40-120*** (wtf Zeekerss)
+  - `Audio Chance Percent` ***40 -> 30***
+- `Smol poofer` changes:
+  - Changed name to `Pop poofer`
+  - `Smoke Prefab`'s colour and size tweaked a little
+- Terrainworks
+- Adjusted `BooVolume` (Spookichi) and `RaphtaliaVolume` (SDM-SeichiPatch)
+- `Fogs`' blending mode at the mountains are now `Additive` instead of `Overwrite`
+- More optimizations
+- Added more `DeniedPoint`s
+- Fixed `SnowichiFog` and `SeichiFog`
+- Adjusted some settings for `SnowichiFog` and `SeichiFog`
+- Oops, `Snowichi` only ***Christmas update***
+- Configs, configs everywhere!
+- *You've got mail!*
+- New skybox
+
+</details>
+<details><summary> v0.9.8 </summary>
+
+- We are back to normal `Seichi`
+- `Spookichi` is still available
+- Hopefully `Cauldrons` are good now(?)
+- `Slauchi` (When Slaughterhouse meets Seichi .-.)
+- `Unko` network varaible bug fixed
+
+</details>
+<details><summary> v0.9.7 </summary>
+
+- Fixed `Cauldrons` triggering for all players everytime
+- Fixed `Cauldrons`' interacttrigger so players can get the items all the time (also changed the text)
+- Adjusted `SeichiFog` (foggy weather) - no more fog indoors
+- Adjusted `SnowichiFog` (dustclouds weather) - no more fog indoors
+- Updated dependencies in unity project and in manifest as well
+- `Spookichi` only
+- Added `BoooVolume`
+- Removed `Mineshaft` and `Facility`
+
+</details>
+<details><summary> v0.9.6 </summary>
+
+- Added `MortarNPestle` to the cauldrons' consumable items' list
+- Fixed `Lantern` for clients
+- Fixed `Cauldrons` not eatin the sacrificed items for clients
+- Added two more pumpkins to `Spookichi`
+- Updated dependencies
+
+</details>
+<details><summary> v0.9.5 </summary>
+
+- Lantern
+  - Fixed `FloorYOffset`
+  - Light stays on when dropped
+  - Light stays "on" when pocketed
+  - Custom turn on and off SFXs
+- Kanabo and Uchiwa sound
+- Fixed `Seats` (oopsie..)
+- Increased spawnchance of `Smol Poofers`
+- Removed `Katana`'s mesh collider (Bodies won't fling out of existence now lol)
+- Fixed `Volcanic` and `SnowyAmbience` not playing (previously I broke my unity project's scripts -> had to redo all and I missed the ambience changes)
+- Moved `Rodrigo` and his `Seamine` to the easter egg location
+- Updated dependenices in unity project and in manifest as well
+- *** `Spookichi` ***
+- Added `XuMiscTools` back
+- Added AI nodes to the islands and near the fireexit behind the mountains (without trees spawning there- hence why `XMT` is back)
+- Added a couple of more `DeniedPoints` using `XMT` to control RNG spawning even more
+- Fixed temples' prefabs
+- Adjusted ambience SFXs
+- Adjusted custom musics
+- Added `CherryBlossoms` to `Seichi`
+- Reworked `LetItSnow` (there are 4 different snow particles now and none of them are just spheres)
+- Changed some trees' colliders and their spawning rotations
+- Added custom icons for Seichi scraps
+- Changed `Video Reel` (ty Wesley)
+
+</details>
+<details><summary> v0.9.2 </summary>
+
+- `Unko` has better emission
+- `Unko` is now BagConfig compatible
+- Seichi terrain texture touchup
+- Added `NavmeshModifiers` to every `SpawnableOutsideObjects`
+- Changed `SpawnableOutsideObjects`' layer from `Terrain` to `Room`
+- Tweaked `RaphtaliaVolume` a bit more
+- Changed `Eclipsed` `Weather Variables` ***1-4 -> 2-4***
+- Adjusted some `LOD`s
+- Fixed `Main Entrance`'s `telepoint` so enemies won't get stuck under the stairs
+- Fixed `FireExit#2`'s `telepoint` so enemies won't get stuck in the second floor
+- Added `Offmesh Links` to `FireExit#2` (second floor) so enemies can reach players there :p
+- Updated dependencies
+- Updated JLL in unity project (I messed up every script I've been using -> had to redo everything... fun)
+- Adjusted `Seats` and their `InteractableTrigger` at `FireExit#4`
+- Good old friends are back?
+- Added  more `WLOGs`
+- More filesize compression
+- Added more `lanterns`
+- Changed `Snowichi` terraina  bit
+- Changed moon prefab's material a bit
+
+</details>
+<details><summary> v0.9.1 </summary>
+
+- Updated README
+- Tweaked `RaphtaliaVolume` (thanks for the recommendation Nikki)
+- Fixed a material on the Dropship
+- Added `LevelMusicLib` as a dependency
+- Added custom `Daytime and Evening musics` (5-5)
+- Disabled vanilla `TimeOfDay` sfxs
+- Fixed Dropship sfx being too quite
+- `Oni Mask` position on head is changed
+- Fixed `Unko` desync
+- `Unko`'s `ScanNode` is better
+- Updated dependencies
+
+</details>
+<details><summary> v0.9.0 </summary>
+
+- Slightly moved `OcclusionArea (1)`
+- Baked new Occlusion Culling for better performance
+- Removed a couple more lanterns at the main entrance (they looked ugly)
+- Organized my stuff (im ded)
+- Changed materials on `Hachiman` (also fixed a part of it)
+- Changed bamboo materials to increase performance and also make them prettier :p (increased and decreased filesize at the same time)
+- A BUNCH OF OPTIMIZATION BOTH PERFORMANCE AND FILESIZE - send help
+- EVEN MORE
+- Moved, changed some `BoundWalls`
+- Added `LOD`s to basically everything [help me] (helps in performance)
+- DeadMech looks good again
+- New moonprefab ^^
+- MORE FRICKIN OPTIMIZATIONS (you guys will never even realize these ;-;)
+- `Oni` and `OniMask` changes
+  - Optimized mask
+  - Fixed `EyesFilled` material
+  - Fixed `OniMask`'s animation when its about to stick to the face of a player
+  - Fixed `HeadOni`'s animation when its stuck to the face
+  - Changed `Audio Intervals` ***5-130 -> 5-110***
+  - Changed `Audio Chance Percent` ***20 -> 25***
+  - Changed Scannode from `Oni` to `Oni Mask`
+- Changed some internal names
+- Adjusted `Doppler level` on everything
+- Even more optimizations
+- Fixed every items' `Floor Y Offset`
+- Fixed every items' `Vertical OFfset`
+- Fixed interact collider at the main entrance
+- Slightly moved the interact triggers for all entrances
+- `Shisha` has new features
+  - When hit, it will actually run away faster
+  - Special stuff #1 - when killed (GOOD for players)
+- Fixed windows at both entrances
+- Switched to `JLL`
+  - Removed `XuMiscTools` as a dependency
+  - Removed `LethalToolbox` as a dependency
+  - Added `JLL` as a dependency
+- Updated all my dependencies in my unity project
+- Moved a couple of AI Nodes
+- With JLL, my custom fog on `Foggy` weather finally works as intended (may be tweaked later tho)
+- Fixed `Kanabo` sound
+- `Itemship`
+  - Readded custom sfx
+  - Fixed sound playing whilst landing
+- Reduced filesize a tad bit more
+- Updated unity project to ***v64***
+- Seichi changes
+  - `pavement` texture tiling changed
+  - `pavement` texture is recolored
+  -  Fixed terrain textures being metallic
+  - `SurfacedWTF`
+  - Adjusted ambience a bit
+  - Changed ambience SFX
+- Snowichi changes
+  - Touched up the textures on the terrain
+  - Fixed terrain texture being metallic
+  - Touched up terrain
+  - Lowered Ice so enemies wouldnt look weird walking on it
+  - Added `SpawnableOutsideObjects` on `Snowichi` (so they will spawn in an RNG way near AI Nodes on the map)
+    - `JapaneseMapleTrees` can't spawn on this weather
+  - Added different ambience SFX
+- Scorchi changes
+  - Changed the terrain a bit
+  - Touched up the textures on the terrain
+  - Tweaked `Lava` a bit more cuz of some peepos
+  - Fixed terrain textures being metallic
+  - Added `SpawnableOutsideObjects` on `Scorchi`
+    - `DryTrees` *new*
+    - `Rocks` *new*
+    - Regular trees won't spawn on this weather
+  - Changed `Sinking Speed Multiplier ***0.3 -> 0.1***
+  - Moved the `InteractTrigger` for the `Lava`
+  - Added different ambience SFX
+- Players can now sit down at the `Crypt` fireexit
+- Updated all dependencies (+)
+- `ScarletMansionSeichiPatch` - hol' up what is this?!
+- Loottable changes
+  - `Zeddog` rarity ***8 -> 1***
+  - Removed `BabyCavedweller` (had a rarity of 0 lol, just wanted to check something)
+  - Removed `GarbageLid`
+  - Removed `7Ball`
+  - Removed `Brush`
+  - Removed `Remote`
+- Added `WLOGs` (they make me crazy)
+- Updated README with new pictures and more spoilers
+
+</details>
+<details><summary> v0.8.7 </summary>
+
+- Fixed `Kanabo`
+- Fixed `Lantern`'s `ScanNode` (i tried to register it as a buyable item, didn't work out again- added it back as a scrap - forgor to fix the scannode's position)
+- Unboxed `Lunx` -> it's in the easteregg place now
+- GrandArmory cages can still be found at the second easter place :p
+- Fixed `Katana`'s `Slice`
+- Slight unnoticable changes to FireExit with the parkour
+- Unnoticable terrain touch-up
+- `Oni` can now use the elevators (they could call them but they couldnt come up with them)
+- Fixed `quickSnow`s not quickSnowing at the first time someone touches them
++ Added one or two more `Off Mesh Link`(s) so enemies can path easier
+
+</details>
+<details><summary> v0.8.6 </summary>
+
+- Fixed errors with enemies
+- Tweaked snowing particles on `DustClouds` weather (Snowichi)
+- Shisha changes
+  - New bestiary  (thank you Wesley)
+  - It's collider now has `isTrigger` on
+  - When hit, it will run away
+  - Killable with some special stuff ^^
+- Added `ScanNode` to `Lunx`
+- Added `XuMiscTools` as dependency
+- `Lava` on `Scorchi` has `QuickSand` effect and also has `BetterCooldownTrigger` - hurts the player AND enemies too!
+- `Katana` has `BetterCooldownTrigger` - hurts the player AND enemies too, ALSO has the SNIPPED RAGDOLL!! YAY
+- Tweaked `Lava` textures
+- Updated dependencies
+- Added plus SFXs for being sliced
+
+</details>
+<details><summary> v0.8.5 </summary>
+
+- Little terrain touchup
+- Navmesh changes regarding the weather
+- `LunxWTF`
+- `Snowichi` changes
+  - terrain touchup here as well
+  - `quicksnow` are a new threat
+  - `footprints` are now visible
+- `Scorchi` is available on Eclipsed ^^
+- Fixed waters' `KillTrigger`s
+- ***v61 support***
+- Added new enemy with a rarity of ***14***
+- Added [7] new vanilla scraps - to not spoiler anything from v60, i won't write down which ones i added and with what rarity
+- Removed one vanilla scrap, forgor what :p
+- Added new vanilla interior with a rarity of *** 42 *** (reason, idk what it looks like so we are going to have a default low value for it -> probably will change it later)
+- `Xu` is now officially renamed to `Unko` (joke is over, also Unko fits more since it means poop in japanese)
+- New fix attempt on `Uchiwa` slap sounds
+- Removed `smol Poofers` - had issues with them with v60 update (maybe i'll readd them later)
+- Added `LethalLib` as a dependency since LLL doesn't add it anymore and I do use it for `Shisha`
+- Fixed stuff in `TimeOfDaySunTypeBown` (again)
+  - `Indirect` light intesity
+  - `SunWithShadows` light intesity
+- Fixed stuff in `TimeOfDaySunTypeBEclipseown` (again)
+  - `Indirect` light intesity
+  - `SunWithShadows` light intesity
+- Fixed stuff in `TimeOfDayTypeBStormyown` (again)
+  - `Indirect` light intesity
+  - `SunWithShadows` light intesity
+- Changes to `pikaSleep`
+  - New animation
+  - Rescaled
+  - Changed grab and drop sfxs
+  - Changed weight ***12 -> 72***
+  - Changed rarity ***7 -> 5***
+- Updated readme with changes, more description on recently added features, added links to credited peepos
+
+</details>
+<details><summary> v0.8.1 </summary>
+
+- Fixed `Vase` value (i might have had a random digit in the max value and its was 8-900 credits in v0.8.0 lmao)
+
+</details>
+<details><summary> v0.8.0 </summary>
+
+- Fixed an issue with `pikaSleep` (oopsie :p)
+- Changed `Risk Level` ***A+ -> S***
+- Changed `Route Price` ***333 -> 500*** 
+- Changed spawnweights
+  - `pikaSleep` ***22 -> 7***
+  - `Lantern` ***15 -> 18***
+  - `Knife` ***5 -> 9***
+  - `Kanabo` ***7 -> 11***
+  - `OniMask` ***22 -> 24***
+  - `Taiko` ***20 -> 22***
+  - `Shamisen` ***21 -> 23***
+- Changed values
+  - `pikaSleep` ***68-133 -> 140-200***
+  - `Tea cup` ***12-24 -> 36-60***
+  - `Taiko` ***48-72 -> 69-90***
+  - `Knife` ***28-84 -> 20-40***
+  - `Lantern` ***8-10 -> 32-56***
+  - `OniMask` ***28-52 -> 48-72***
+  - `Mortar and Pestle` ***24-36 -> 32-46***
+  - `Shamisen` ***42-64 -> 66-84***
+  - `Tea pot` ***24-40 -> 42-76***
+  - `Uchiwa` ***12-56 -> 30-52***
+  - `Vase` ***36-56 -> 62-118***
+- Changed `Min-Max Scrap` ***18-24 -> 23-29***
+- Added `Butler` with a rarity of ***34***
+- Changed `OniMask`'s tooltip :p
+- Changed `Max Power Counts`
+  - `Enemy` ***12 -> 15*** (inside)
+  - `Daytime` ***7 -> 8*** (bees, critters, tulipsnakes)
+  - `Outside` ***8 -> 9*** (nighttime)
+- Changed `Eclipsed Weather Variables` ***4-6 -> 1-4***
+- `pikaSleep` is now Squeezable >w<
+- `Katana` says no touchy touchy
+- NO TOUCHY TOUCHY!
+- Fixed stuff in `TimeOfDaySunTypeBown`
+  - `Indirect` light intesity
+  - `SunWithShadows` light intesity
+- Fixed stuff in `TimeOfDaySunTypeBEclipseown`
+  - `Indirect` light intesity
+  - `SunWithShadows` light intesity
+- Fixed stuff in `TimeOfDayTypeBStormyown`
+  - `Indirect` light intesity
+  - `SunWithShadows` light intesity
+- Updated README
+- Updated dependecy on StarlancerAIFix
+
+</details>
+<details><summary> v0.7.7 </summary>
+
+- Fixed `Tea cup` (something messed it up...)
+- Added new scrap item :3
+- Fixed something (forgor)
+- Removed `Dust pan` from the loot table
+
+</details>
+<details><summary> v0.7.6 </summary>
+
+- Fixed changelog number lol (oopsie)
+- Fixed Poofers spawning on `Stormy` [i somehow changed it in the latest update(?)]
+- Fixed v0.7.5 missing a change
+- Fixed trophies being too dark (ty Webley)
+- Fixed `LetItSnow` (snow particles)
+- Fixed `Doppler level`s on instruments (`Shamisen`, `Taiko`)
+- Changed `Doppler level` for `OniMask` too
+- More optimization (81.8 MBs -> 64.0 MBs in *total*)
+- Updated README
+
+</details>
+<details><summary> v0.7.5 </summary>
+
+- `Stormy` weather tweaked slightly (variables were 3-3 now its 3-5)
+- `Foggy` weather variables were also tweaked
+- Removed some lamps at the second building cuz they were ugly
+- Reworked crypt fireexit (it had many issues before)
+- Optimizations, filesize compression
+- Fixed `TakeyPlush`'s and `MithzanFunkoModel`'s positions
+- Fixed layers for foilages
+- `Snowichi`! (`DustClouds` weather) - this also increased the filesizes ;_;
++ Fixed `Factory Size Multiplier` reverted to 1.15 for some unknown reason lol (its on 1.69 now)
+
+</details>
+<details><summary> v0.7.1 </summary>
+
+- Added custom `Foggy` weather
+- Added `LethalToolBox` as a dependency
+- Added `Smol Poofers` to `Foggy` and `Eclipsed` weather
+- Added `StarlancerAIFix` as a dependency
+- Moved `MithzanFunkoModel` to the easteregg place
+- Organized my project
+- Compressed filesize more
+- Tweaked `SunAnims`
+- Fixed Cube Sun during `Foggy` / `Stormy` weather
+- Updated dependencies
+
+</details>
+<details><summary> v0.7.0 </summary>
+
+- Fixed `Knife`'s `BloodStabParticle`
+- Changed SFX for `TakeyPlush`
+- Moved `TakeyPlush`, so its not breaking immersion
+- `MithzanWTF`
+- Fixed `Uchiwa` throwing a fit in the logs
+- Added power level configuration to `Shisha`
+- Fixed `Dropship` materials
+- Tweaked Waters for `Ogopogo` (Biodiversity entity, not out yet..)
+- Potential fix on `Uchiwa` to make the `slapSFX`s be heard for others when they get hit by it (previously only the holder heard the sound and the others heard `swingSFX`s)
+- Added more `Tori`s
+- Added glasses and lights to the trophies
+- Tweaked trophies collider a little
+- Changed texture for trophies
+- Changed size of throphies
+- Changed lamps at buildings (THANKS WESLEY...)
+- Changed middle island's platform's texture
+- Tweaked sky
+- Added nighttime sky
+- Terrain touch-up (you can get out of water at some specific places - main reason for this change `Driftwood`)
+- Added `Lotuses`
+- Added `Lakelotuses`
+- Fixed pond's terrain texture
+- Texture touch-up
+- Added `Bamboo`s
+- Content tag changes:
+  - Removed `SacredLand` content tag
+  - Added `Valley` and `Paid` to the moon
+  - Added `Organic`, `Killable`, `Hostile`, `Biped`, `Medium` to `Oni`
+  - Added `Household`, `Harmful`, `Luminescent`, `Metal`, `Weapon` accordingly to the custom scraps/items
+- `Level Matching Properties` changes:
+  - Changed LMPs for scraps and `Oni` from Mod Names to Planet Names for future purposes
+- More filesize compression
+- Fixed `Stormy` weather having a Sun animation now (lol - DAAAM YOU v56 patcher) [this is a temporary one, i'll update all sun anims later]
+- Changed SFXs:
+  - drop SFX for `Vase`
+  - pick up and drop SFXs for `Shamisen`
+  - drop and all playable SFXs for `Drum`
+- Fixed missing texture for ghost girl's head (trophy)
+- Fixed missing textures for dropship
+- Changed "Known issues" to "Future tweaks" in the readme since thats more reasonable
+- Removed "On Release" from readme
+- Temporarily changed `Lantern` to be a scrap instead of a buyable item
+
+</details>
+<details><summary> v0.6.9 </summary>
+
+- Minor terrain touch-ups
+- Fixed dropship trigger icon
+- Enemy rarity changes
+  - `Oni` ***24 -> 32***
+  - `Flowerman` ***52 -> 44***
+  - `Crawler` ***26 -> 28*** 
+- Item rarity changes
+  - `Teapot` ***35 -> 37***
+  - `Taiko` ***18 -> 20***
+  - `OniMask` ***19 -> 22***
+  - `Vase` ***31 -> 33***
+  - `Cup` ***42 -> 38***
+  - `Mortar and Pestle` ***27 -> 24***
+  - `Shamisen` ***26 -> 21***
+- `Kanabo` and `Shamisen` are no longer conductive scraps
+- Fixed `OniMask` not playing `MaskComedyAttach` ***locally***
+- `Spawn Probability Range` changed ***3 -> 5***
+- `Daytime Enemies Probability Range` changed ***7 -> 6***
+- Changed Tags and Layers on most objects
+- Changed Ryu's tree's collider
+- ***`TakeyWTF`***
+- Updated README
+
+</details>
+<details><summary> v0.6.8 </summary>
+
+- Fixed dropship (silly me)
+- Temporarily removed custom dropship and replaced it with the vanilla one
+- Updated the README
+
+</details>
+<details><summary> v0.6.7 </summary>
+
+- Fixed Eclipsed sun material (oopsie
+)
+</details>
+<details><summary> v0.6.6 </summary>
+
+- Filesize compression (66ish~ mb)
+- Fixed under water texture
+- forgor
+
+</details>
+<details><summary> v0.6.5 </summary>
+
+- embarrased fixes (no sfxs this time either)
+
+</details>
+<details><summary> v0.6.4 </summary>
+
+- Fixed `Shisha` acting up
+- Streched the grass texture a bit more
+- Fixed Sun material issues
+- Fixed temples' mesh issue
+- Removed custom `insideSFX` - will probably add it as a stinger for the interior later
+
+</details>
+<details><summary> v0.6.3 </summary>
+
+- Fixed hazards' settings
+- Added `Vain Shrouds` spawning
+- Added `Barber` to the enemy pool
+- Changed `Level enemy values`
+  - `Max Enemy Power Count` ***9 -> 12***
+  - `Max Outside Enemy Power Count` ***10 -> 8***
+  - `Max Daytime Enemy Power Count` ***8 -> 7***
+- Changed `Min Scrap` ***16 -> 18***
+- Changed `Max Scrap` ***22 -> 24***
+- Changed some `Eclipsed` variables
+- Changed `Factory Size Multiplier` ***1.15 -> 1.69***
+- Changed `Route Price` ***225 -> 333***
+
+</details>
+<details><summary> v0.6.2 </summary>
+
+- ***Updated to v56***
+  - Patching to v56 increased filesize...
+- Fixed `Shisha`'s config spawning
+- `Shisha` now leaves at nighttime
+- Changed `Oni`'s settings
+  - `Push Player Force` ***0.16 -> 0***
+  - `Push Player Distance` ***1.26 -> 0***
+  - `Max Count` ***10 -> 8***
+- Fixed some typos in `Level Description`
+
+</details>
+<details><summary> v0.6.1 </summary>
+
+- Fixed lamp materials at `Fire Exit #4`
+- Added forgotten changes to the previous patch
+- Changed scannode from `kanabo` to `Kanabo`
+- Fixed `Hachiman`'s ScanNode registering as a `Baboon Hawk`
+- Decreased filesize again (~ 27 MB)
+- Added `Lantern` as a buyable item - with it's own script
+- Fixed waters not watering
+- Changed tree collisions
+- Changed `Oni`'s settings
+  - `Stun Time Multiplier` ***0.75 -> 0.7***
+  - `Door Speed Multiplier` ***2 -> 1.5***
+  - `Angular Speed` ***120 -> 130***
+  - `Acceleration` ***20 -> 30***
+- Adjusted weight of `Kanabo` from 47 lbs to 37 lbs
+
+</details>
+<details><summary> v0.6.0 </summary>
+
+- `Kanabo` has its own script to balance the item out
+- `Shisha` received LODs
+- Decreased filesizes on all bundles (~44 MB)
+- Fixed `Oni`'s and all custom scraps' spawning weight (I had a bad setup before and my settings were ignored)
++ Changed `Kanabo`'s weight from 28 lbs to 47 lbs (tested stuff around and forgor)
++ Middle island's platform had some texture changes
+
+</details>
+<details><summary> v0.5.8 </summary>
+
+- Improved `Hachiman`'s █████
+- Changed `Oni`'s settings
+  - `Sync Movement Speed` ***0.16 -> 0.2***
+  - `Exit Vent Animation Time` ***3 -> 4***
+  - `Enemy HP` ***4 -> 5***
+  - `Turn Speed Multiplier` ***11 -> 10***
+- Changed `Taiko`'s `Use Cooldown` ***1 -> 0.6***
+- Actually fixed `Taiko`'s resting position...
+- Changed `Taiko`'s drop SFX
+- Fixed `HangarAmbience` playing inside and also changed it
+- Added custom `InsideAmbience` SFX and moved it inside - hopefully -
+
+</details>
+<details><summary> v0.5.7 </summary>
+
+- Fixed some stuff in readme
+- New building indicator lamps are now OCD-friendly (thanks Wesley for pointing them out)
+- Fixed offset and resting rotation for Taiko
+- Fixed offset for `Uchiwa`
+- `Hachiman` is scannable? WAIT WAIT WAIT ITS █████████
+
+</details>
+<details><summary> v0.5.6 </summary>
+
+- Fixed `Uchiwa` SFXs
+- Fixed `Mortar and Pestle` having multiple different teacup materials (forgor to remove the material variants there lol)
+- Fixed Navmesh yet again - Now all entrances are Enemy escape compatible, they wont go underneath the stairs or any weird stuff like that
+- Finally revamped README (WOOT!)
+- Added more vanilla scraps
+- Adjusted the rarity for some scraps
+- `Uchiwa` has a function now :3
+
+</details>
+<details><summary> v0.5.5 </summary>
+
+- Bugfixes (A LOT!)
+- Added more scrap (there are 10 custom scraps now)
+- Minor changes to the loot table
+- Minor changes to the enemy pool
+- Custom sfx's for pickups and drops on SOME custom scraps
+- Custom attack audio for `Oni` (it's HANYA btw which is basically the female version, but Oni is more wellknown)
+- `Uchiwa` DOES -1 DMG ( it can kill a tulipsnake somehow but cant hurt anything really, its more of a test item with some future ideas [dont expect too much] )
+
+</details>
+<details><summary> v0.5.2 </summary>
+
+- Added (forgotten) clip to `Shisha`'s bestiary
+- Fixed Dropship trigger
+
+</details>
+<details><summary> v0.5.1 </summary>
+
+- Fixed Dropship leaving for non-hosts (hopefully)
+- Fixed more Navmesh issues
+- Added more original items to the lootpool
+- Changed a couple of enemies' rarity for balancing
+
+</details>
+<details><summary> v0.5.0 </summary>
+
+- Changed the lamps at the island buildings
+- Added more light to the island buildings
+- Increased the min-max total scrap value
+- Fixed Navmesh issues
+- Fixed some collider warning log issues
+- Fixed Audio error log issues
+- Lowered the amount of trees spawning
+- `SHISHA` IS BACK WITH ANIMATIONS AND IT'S FULLY REGISTERED (WOOT!)
+- `Shisha` now has ambient sfxs too
+- `SHISHA` WHAT ARE YOU DOING?! ShishaWTF
+- Added `Xu`
+- Added videoclip to the terminal routing scene
+- What are these scraps?
+- WAIT! This has a different colour?
+- `ONI`?! IT'S COMING AFTER ME HEEELP!
+- Fixed outside custom scraps floating (silly me)
+- Fixed crashing issue
+- Slight changes to the terrain
+- Icon revamped
+
+</details>
+<details><summary> v0.0.2 </summary>
+
+- Tweaked grass and pavement textures
+- Trees are 3x bigger
+- Collider fixes to the trees
+- Changed Y-axis for trees (when they spawn in sometimes they looked a lil weird)
+- Decreased the number of the trees spawning
+- Textures blend in better with each other on certain areas
+- Minor terraformation
+- Material change to one bridge (+ that and the other similar one are now registered as wood instead of concrete)
+- Fixed audio log error
+- Added custom outside ambient sfx
+- Removed WanderingCreature.dll (`Shisha` doesnt roam the map currently)
+- Fixed some log errors
+- Changed interior to be mainly mansion until dojo interior becames a thing
+- Touched the water up a little (dont know if this changed really much)
+
+</details>

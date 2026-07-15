@@ -1,0 +1,17 @@
+{
+    "name": "SkelaahsWildMoons",
+    "version_number": "3.0.8",
+    "website_url": "https://ko-fi.com/skelaah",
+    "description": "Adds 10 Vanilla+ moons, each having their own unique sizes, biomes, mechanics and gimmicks. (v80+ compatible)",
+    "dependencies": [
+        "IAmBatby-LethalLevelLoader-1.7.5",
+        "Evaisa-LethalLib-1.2.0",
+        "AudioKnight-StarlancerAIFix-3.12.0",
+        "JacobG5-JLL-1.10.0",
+        "DarthLilo-LevelMusicLib-1.0.2",
+        "pacoito-itolib-0.9.3",
+        "WhiteSpike-Moon_Day_Speed_Multiplier_Patcher-1.0.1",
+        "TeamXiaolan-DawnLib-0.9.21"
+
+    ]
+}

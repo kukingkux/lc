@@ -1,0 +1,10 @@
+{
+    "name": "DunGenReferenceFixer",
+    "author": "Zaggy1024",
+    "version_number": "0.0.1",
+    "website_url": "https://github.com/Zaggy1024/LC_DunGenReferenceFixer/",
+    "description": "Fixes interior assets' references if they haven't been updated to v80.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

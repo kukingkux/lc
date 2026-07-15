@@ -1,0 +1,9 @@
+{
+	"name": "RndmTunes",
+	"version_number": "1.0.14",
+	"website_url": "",
+	"description": "This mod/addon adds low quality music to your company cruisers radio, to make your ride more enjoyable",
+	"dependencies": [
+		"Mellowdy-CruiserTunes-1.3.3"
+	]
+}

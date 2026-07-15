@@ -1,0 +1,9 @@
+{
+  "name": "Fairer_Fire_Exits",
+  "version_number": "2.0.2",
+  "description": "Adjust fire exit spawns to make them more likely to spawn deep in the dungeon",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ],
+  "website_url": "https://github.com/MakuAureo/FairerFireExits"
+}

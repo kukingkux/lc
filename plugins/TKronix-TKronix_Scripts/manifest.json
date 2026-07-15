@@ -1,0 +1,9 @@
+{
+  "name": "TKronix_Scripts",
+  "version_number": "0.2.0",
+  "website_url": "",
+  "description": "Just Random Scripts to do stuff",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

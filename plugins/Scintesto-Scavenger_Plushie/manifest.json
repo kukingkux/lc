@@ -1,0 +1,12 @@
+{
+    "name": "Scavenger_Plushie",
+    "version_number": "1.0.9",
+    "website_url": "",
+    "description": "Adds a scrap thats a plushie version of a scavenger, depends on bepinex, lethal lib and hookgenpatcher",
+    "dependencies": [
+"BepInEx-BepInExPack-5.4.2100",
+"Evaisa-LethalLib-0.14.2",
+"Evaisa-HookGenPatcher-0.0.5"
+
+    ]
+}

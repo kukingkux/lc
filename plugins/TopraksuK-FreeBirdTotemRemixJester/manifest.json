@@ -1,0 +1,9 @@
+{
+  "name": "FreeBirdTotemRemixJester",
+  "version_number": "1.0.1",
+  "website_url": "",
+  "description": "Free Bird (TOTEM Remix) for the Jester with the initial part being for the winding, solo part for the killing mode. The transition between the two parts is seamless.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

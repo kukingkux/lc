@@ -1,0 +1,54 @@
+
+## Patch Notes
+- **1.0.14**
+	- Added 4 low quality songs
+		- Modern Talking
+			- (1) ``Brother Louie``
+			- (2) ``Cheri Cheri Lady``
+			- (3) ``You're my Heart, You're my Soul``
+		- (4) ``Nightcall - Kavinsky``
+	- Changed the mods Icon
+- **1.0.13**
+	- Updated README.md and CHANGELOG.md
+- **1.0.12**
+	- Added 1 low quality song
+	    - (1) ``Le Fish``
+- **1.0.11**
+	- Made most music files more quiet, so you can hear your teammates
+- **1.0.10**
+	- Added 1 low quality song
+	    - (1) ``I'm Still Standing``
+- **1.0.9**
+	- Added 1 low quality song
+	    - (1) ``Blinding Lights``
+- **1.0.8**
+	- Added 3 low quality songs
+	    - (1) ``Around The World - Daft Punk``
+	    - (2) ``Sh boom (Life could be a dream)``
+	    - (3) ``Wake me Up before you Go Go``
+- **1.0.7**
+	- Fixed music not loading in
+	    - Issue: "CustomSongs" folder wouldn't be created, therefore CruiserTunes cannot load the music
+- **1.0.6**
+	- Added 1 low quality song
+	    - (1) ``Lady Hear Me Tonight``
+- **1.0.5**
+	- Added 2 low quality songs
+	    - (1) ``Billie Jean``
+	    - (2) ``Party Rock Anthem``
+- **1.0.4** 
+	- Updated README.md
+- **1.0.3**
+	- Added 1 low quality song
+	    - (1) ``Revenge - Captain Sparkles``
+- **1.0.2**
+	- Updated README.md and CHANGELOG.md
+- **1.0.1**
+	- Added the changelog page
+- **1.0.0**
+	- Release
+	- Added 4 low quality songs 
+	    - (1) ``California Gurls``
+	    - (2) ``Funky Town``
+	    - (3) ``Happy``
+	    - (4) ``Last Friday Night``

@@ -1,0 +1,10 @@
+{
+    "name": "LCBetterSavesFix",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/ZehsTeam/Lethal-Company-LCBetterSavesFix",
+    "description": "Fixes the LCBetterSaves mod to work properly with the LethalModDataLib mod.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Pooble-LCBetterSaves-1.7.3"
+    ]
+}

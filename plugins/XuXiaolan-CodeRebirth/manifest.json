@@ -1,0 +1,14 @@
+{
+  "namespace": "XuXiaolan",
+  "name": "CodeRebirth",
+  "description": "Content Expansion mod with Custom Moon, Enemies, Weathers, Items and more! [V80]",
+  "version_number": "1.6.9",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "Rune580-LethalCompany_InputUtils-0.7.12",
+    "TeamXiaolan-DawnLib-0.9.1",
+    "XuXiaolan-ReXuvination-1.1.0"
+  ],
+  "website_url": "https://github.com/XuuXiao/CodeRebirth",
+  "FullName": "XuXiaolan-CodeRebirth"
+}

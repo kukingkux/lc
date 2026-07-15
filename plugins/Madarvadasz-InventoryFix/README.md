@@ -1,0 +1,1 @@
+Fixes the bug that makes it impossible to pick up items after death and respawn in the next round.

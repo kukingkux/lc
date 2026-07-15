@@ -1,0 +1,151 @@
+# 692 - Seichi
+
+<b> 1.0.0!!! - No Dojo yet, Shisha is coming back later as a seperate mod and the pictures are pretty old but I'll update them later on</b>
+
+***v73 support***
+
+## Info
+
+The Sacred Land of the Japanese Legends and Gods is finally available again, after long consideration by the Company they came to a conclusion to revisit the long lost planet.
+The reasons for the unavailablitity is currently unknown.
+
+> I highly recommend using Cullfactory's viewdistance instead of sf Desat's ViewExtension - that is glitchy if its not scaled up to max!
+
+- `Cost of route:` `500 credits`
+- `Difficulty:` `S`
+
+<details>
+  <summary><b>Custom scraps</b></summary>
+<br>
+
+| Scrap Name | Function | Weight [Lbs] | Two-handed | Material Variety | Conductivity |
+| ----------- | ----------- | ----------- | ------- | -------- | ------|
+| `Teapot` | None | 12 | No | 4 | No |
+| `Tea cup` | None | 2 | No | 5 | No |
+| `Vase` | None | 23 | Yes | 4 | No |
+| `Oni Mask` | Can turn player into an Oni | 11 | No | 1 | No |
+| `Shamisen` | Playable Instrument | 29 | Yes | 1 | No |
+| `Taiko` | Playable Instrument | 31 | Yes | 1 | No |
+| `Knife` | Weapon  | 4 | No | 1 | Yes |
+| `Kanabo` | Weapon - does 2x dmg but takes longer to reel it up | 37 | No | 1 | No |
+| `Uchiwa` | Can heal players, kill tulipsnakes, can't hurt enemies | 3 | No | 1 | No |
+| `Mortar and Pestle` | None | 9 | No | 1 | No |
+| `Lantern` | Flashlight | 7 | No | 1 | No |
+| `pikaSleep` | s1ckboy plushie | 72 | No | 1 | Yes |
+| `Special Key` | Key to ring chest (and doors) | 0 | No | 1 | Yes |
+| `Marriage Contract` | Force marriage | 14 | No | 1 | Yes |
+
+</details>
+
+<details>
+  <summary><b>More info</b></summary>
+<br>
+
+- Trees are randomly generated
+- 14 custom scraps with some having multiple variants of them
+- 1 ambient creature called `Shisha`
+- `Shisha` can spawn on every other moons, highly configable custom entity
+- Theres a rare chance for it to drop a scrap item called `Unko`
+- `Unko` can be red(cheapest) - green - blue(most expensive), scrap item also highly configurable
+- When `Shisha` is hit, it will run away from the player, when killed it'll despawn and leave 3 `Unko`s behind
+- Custom enemy `Oni` - which is a masked variant
+- Custom enemy `Smol Poofer` - which is a Spore Lizard variant
+- `Hachiman` is now scannable, and it takes a random pose per round (that moves a little)
+- Custom seasons
+  - `Snowichi` is on DustCloud weather
+  - `Scorchi` is on Eclipsed weather
+- `Katana` causes 69 damage if you touch it
+- `Katana` has a zone in the middle (that is not as big as the platform) which has 7% chance to trigger an event where it spins around and flies in the air before returning to its original place, its an instant kill which does 690 damage
+- If you have `ScarletDevilMansion` interior and it spawns on Seichi, the moon will be desaturized to work well with SDM ^^
+- There are custom musics (DMCA free) that play in the background in the morning and in the evening. They are also modified a bit.
+- `Spookichi` is unlockable by hitting the pumpking near the main entrance (only `Spookichi` for now, but once halloween is over, the pumpkin will still be available)
+  - Daily and evening musics change to fit the theme
+  - It has a custom ambience audio, normal Seichi ambience is disabled (Snowichi and Scorchi are still there tho)
+  - Red Cauldron has three outcomes: Nothing(just consumes scrap), Flashes player + Spawns rare item, Kills player
+  - Green Cauldron also has three outcomes: Nothing, Hurts player for 5 hp + Spawns rare item, Flashes player + Spawns enemy
+  - Items that can be dropped in the cauldrons: `Teapot` , `Cup` , `OniMask` , `Vase` , `Uchiwa` , `Naifu` , `Lantern` , `Mortar and Pestle` , `Unko`
+- You can stack different versions of the moon - for example `Scorchi` + `SDM-SeichiPatch` + `Spookichi` if you go to Seichi on eclipsed weather with SDM interior picked and you click on the pumpkin
+- `Mailbox` either delivers a death sentence or an invitation to one of two dimensions, the rubber room - you have one way out -> PANIC!, or  the dojo for an announcement
+- <b>Seichi has three configs, LethalCompanySeichi.cfg, LethalCompanyShisha.cfg, Seichi.cfg (last one is not accessible in lethalconfig but in modmanager)</b>
+
+- This is a bit outdated, but mostly true, Shisha though is going to be a seperate mod and for the wedding feature theres a secret config under the name of FaithSecretRoom/Funny
+
+
+</details>
+
+## Screenshots
+
+- Seichi / Snowichi / Scorchi
+![](https://trello.com/1/cards/66e37a16a2ddd6191c986926/attachments/66e37bb2d4a5c6c74b7a3509/previews/66e37bb3d4a5c6c74b7a36bd/download/banner.jpg)
+
+- Middle island with all the custom scraps
+![](https://trello.com/1/cards/66e37a16a2ddd6191c986926/attachments/66e37c2ddaf44f3f40b78970/previews/66e37c2edaf44f3f40b78979/download/midlandwithallitems.png)
+
+- Shishas
+![](https://trello.com/1/cards/66e37a16a2ddd6191c986926/attachments/66e37c301de17fd1375036b8/previews/66e37c321de17fd1375036da/download/shishas.png)
+
+- Main entrance
+![](https://trello.com/1/cards/66e37a16a2ddd6191c986926/attachments/66e37c2b5d735bb71fd2e1d0/previews/66e37c2c5d735bb71fd2e497/download/main.png)
+
+<details>
+  <summary><b>More spoilers</b></summary>
+<br>
+
+- Fire Exit #1 and #2
+![](https://trello.com/1/cards/66e37a16a2ddd6191c986926/attachments/66e37c1f4a042a1f38b40d44/previews/66e37c204a042a1f38b40d4d/download/fireexit1-2.png)
+
+- Fire Exit #3
+![](https://trello.com/1/cards/66e37a16a2ddd6191c986926/attachments/66e37c212ada8801376c52ab/previews/66e37c222ada8801376c52b4/download/fireexit3.png)
+
+- Fire Exit #4
+![](https://trello.com/1/cards/66e37a16a2ddd6191c986926/attachments/66e37c2368fd49bd386a7e9b/previews/66e37c2568fd49bd386a7ea4/download/fireexit4.png)
+
+- Oni
+![](https://trello.com/1/cards/66e37a16a2ddd6191c986926/attachments/66e37c2eddf5a5e2d4e100b6/previews/66e37c30ddf5a5e2d4e100bf/download/oni.png)
+
+</details>
+
+### Credits to
+
+- [Ryudious](https://thunderstore.io/c/lethal-company/p/Ryudious/) for the tree model - it's in the middle of the smol pond
+- [QWERTYrodrigo](https://thunderstore.io/c/lethal-company/p/QwertyRodrigo/) and [SolidStone](https://thunderstore.io/c/lethal-company/p/SolidStone/) for the Radmech model and its custom texture, Rodriguez models
+- [Wesley](https://thunderstore.io/c/lethal-company/p/Magic_Wesley/) and [Danielus](https://thunderstore.io/c/lethal-company/p/Danielus/) for help in certain issues, Webley model
+- [Batby](https://github.com/IAmBatby) for `LethalLevelLoader` and for help with file compression
+- [AudioKnight](https://github.com/AudioKnight) for `StarlancerAIFix` and basic tutorial
+- [Hamunii](https://github.com/Hamunii/) for help in fixing an error
+- [BBAPepsiMan](https://www.twitch.tv/pepsimaaaaaan) for the icon
+- [Darth Figo](https://github.com/LouisSilva/) for `kanabo`, `uchiwa` and `lantern`'s codes
+- [TestAccount666](https://thunderstore.io/c/lethal-company/p/TestAccount666/) for help with `Hachiman`
+- [Zehs](https://github.com/ZehsTeam) for `TakeyPlush` model
+- [Oponok](https://x.com/OponokMWL) and [Solid_Assault](https://thunderstore.io/c/lethal-company/p/DullHorses/MithzanScrap/) for `MithzanFunko` model
+- [Xu](https://github.com/XuuXiao/) for helping me polish snow particles
+- Mox for future stuff
+- [LadyRaphtalia](https://git.touhou.dev/Raphtalia) for working with me on a Seichi + [Scarlet Devil Mansion](https://thunderstore.io/c/lethal-company/p/Alice/ScarletDevilMansion/) idea
+- [Jacob](https://github.com/JacobG55) for `JLL` and a lot of help with setting things up, and wedding script
+- [DarthLilo](https://github.com/DarthLilo) for `LevelMusicLib`
+- [Spin aka Hissterix](https://www.youtube.com/@djspinmaster2512) for the BANGER Christmas song and for the revamped daily/evening musics 
+- [debit card](https://thunderstore.io/c/lethal-company/p/debit_card_debit) for better icons for my scraps
+
+### Further credits to
+
+- [datucarl](https://sketchfab.com/3d-models/japanese-bridge-a84d847a4824422a82b2d13661214ca2)
+- [btitkin95](https://sketchfab.com/3d-models/japanese-wood-bridge-9d483d5e092544b38ee98abccce55249)
+- [iceboxX708](https://sketchfab.com/3d-models/twisted-kanabo-c7d40ac70be045e1b932f88b468cca62)
+- [lejean](https://sketchfab.com/3d-models/shamisen-2a0bc0a696c24d88bd7dae3bb737244a)
+- [Second Studio](https://sketchfab.com/3d-models/drum-3e6004858508416293b536efaa2cbedc)
+- [HQ3DMOD](https://sketchfab.com/3d-models/japanese-uchiwa-hand-fan-03-b441641c619d4d89898c8f8ee734482f)
+- [James.Harness](https://sketchfab.com/3d-models/japanese-teapot-252c28595d3c45fb87095faf71466113)
+- [Sam Feng](https://sketchfab.com/3d-models/japanese-tea-cup-506f16847d0a4565bdf5d4fa4c358546)
+- [Jay Landeweer](https://sketchfab.com/3d-models/japanese-vase-0abae28029a644fe84d45b395b6638ec)
+- [RichArt_Griffin](https://sketchfab.com/3d-models/pikachu-hnad-painted-d342724c20eb48a89892530d68fdaee2)
+- [Teslov](https://sketchfab.com/3d-models/mortar-and-pestle-d458e4aa44ec497a8ea4917d4152f617)
+- [Ellie3D](https://sketchfab.com/3d-models/japanese-mailbox-a5667f86065f45a4a5721bc4429f6d39)
+- [Arcadiax](https://sketchfab.com/3d-models/letter-a3b88a6137864cafbf97423a30cb341c)
+- [DanSilva](https://sketchfab.com/3d-models/candle-wall-lamp-65cbbefb7774468e80ea4d815ce3cfd0)
+- [Akio](https://sketchfab.com/3d-models/japanese-andon-standing-lamp-b804cad1c6454089870780abf5f31ae3)
+- Probably a few more things could be listed but couldn't find their sketchfab link again
+
+
+If you'd like to support me or just want to see some upcoming mods for Lethal Company or R.E.P.O:
+
+[![ko-fi](https://trello.com/1/cards/685cd0fe669dd9a14cc85885/attachments/685cd1112939c3caf675d6f4/download/kofisupport.png)](https://ko-fi.com/s1ckboy)

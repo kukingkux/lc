@@ -1,0 +1,11 @@
+﻿{
+    "name": "DoctorNoYap",
+    "version_number": "1.0.4",
+    "website_url": "",
+    "description": "Replaces the Doctor's spawn speech with more varied ones",
+    "dependencies": [
+        "loaforc-loaforcsSoundAPI-2.0.11",
+        "BepInEx-BepInExPack-5.4.2305",
+        "Lega-TheDoctor-1.0.6"
+    ]
+}

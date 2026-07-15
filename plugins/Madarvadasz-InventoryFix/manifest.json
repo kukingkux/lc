@@ -1,0 +1,9 @@
+{
+    "name": "InventoryFix",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Fixes the bug that makes it impossible to pick up items after death and respawn in the next round.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

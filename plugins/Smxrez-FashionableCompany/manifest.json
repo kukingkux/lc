@@ -1,0 +1,9 @@
+{
+    "name": "FashionableCompany",
+    "version_number": "1.2.1",
+    "website_url": "",
+    "description": "Adds 20 new vanilla-esque fashion themed cosmetics via MoreCompany",
+    "dependencies": [
+        "notnotnotswipez-MoreCompany-1.14.0"
+    ]
+}

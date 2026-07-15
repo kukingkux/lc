@@ -1,0 +1,16 @@
+# Experimental 0.1
+
+### changes from stable v0.5.9 (03.05.2024)
+
+- Merged PR [#21](https://github.com/AndreyMrovol/LethalRichPresence/issues/21)
+- improved project structure
+- changed license to LGPL-3.0
+- changed how placeholders are handled internally for improving performance
+- added a config option to change update frequency
+- added a dependency on MrovLib
+
+# Experimental 0.2
+
+- added a config option to hide `DiscordActivityUpdate` logs
+- changed how placeholder resolving is logged: only on changes
+- changed planet names

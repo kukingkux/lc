@@ -1,0 +1,12 @@
+{
+  "namespace": "mrov",
+  "name": "LethalRichPresenceExperimental",
+  "description": "Discord Rich Presence support in-game.",
+  "version_number": "0.2.0",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "mrov-MrovLib-0.2.7"
+  ],
+  "website_url": "https://github.com/AndreyMrovol/LethalRichPresence",
+  "FullName": "mrov-LethalRichPresenceExperimental"
+}

@@ -1,0 +1,11 @@
+{
+  "namespace": "Zehs",
+  "name": "TwitchChatAPI",
+  "description": "Add Twitch chat integration to your Unity game mods! Subscribe to events like Messages, Cheers, Subs, and Raids. No Twitch authentication or connections required.",
+  "version_number": "2.0.0",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ],
+  "website_url": "https://github.com/ZehsTeam/TwitchChatAPI",
+  "FullName": "Zehs-TwitchChatAPI"
+}

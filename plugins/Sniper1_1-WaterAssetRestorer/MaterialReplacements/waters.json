@@ -1,0 +1,29 @@
+{
+    "MaterialSets": [
+        {
+            "BaseMaterial" : "Water_mat_04",
+            "ReplaceMaterial" : "Flooded&GordionWater",
+            "SceneName" : "SampleSceneRelay"
+        },
+        {
+            "BaseMaterial" : "CaveWater",
+            "ReplaceMaterial" : "CaveWater",
+            "PrefabName" : "CaveWaterTile"
+        },
+        {
+            "BaseMaterial" : "PoolWater",
+            "ReplaceMaterial" : "PoolWater",
+            "PrefabName" : "PoolTile"
+        },
+        {
+            "BaseMaterial" : "MarchWater",
+            "ReplaceMaterial" : "MarchWater",
+            "SceneName" : "Level4March"
+        },
+        {
+            "BaseMaterial" : "VowWater",
+            "ReplaceMaterial" : "VowWater",
+            "SceneName" : "Level3Vow"
+        }
+    ]
+}
